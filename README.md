@@ -3,14 +3,19 @@ Este repositório foi criado para seguir e mostrar meu progresso em quanto apren
 This repository was created to track and show my progress as I learn to code.
 
 
+
 Os codigos são atualizados todos os dias depois dos estudos no meu repositório do GitHub. ( https://github.com/leomac00/learningToCode );
 Também tenho um resumo de cada livro estudado em .docx que vou fazendo conforme vou estudando, ao terminar um livro darei upload nele no meu respositorio de estudos no GitHub.
 
 
+
 Aqui estão as minhas referencias para os estudos:
 > livro [0] - Get Programming With JavaScript (JOHN R. LARSEN).
+
 > livro [1] - JavaScript.info (ILYA KANTOR).
+
 > livro [2] - Automate Boring Stuff With Python (AL SWEIGART).
+
 > Instituição de ensino - Digital Innovation One.
 
 Log:

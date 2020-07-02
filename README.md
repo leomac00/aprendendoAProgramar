@@ -1,5 +1,6 @@
 # learningToCode
 Este repositório foi criado para seguir e mostrar meu progresso em quanto aprendo a programar.
+
 This repository was created to track and show my progress as I learn to code.
 
 

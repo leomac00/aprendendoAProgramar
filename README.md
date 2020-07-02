@@ -8,9 +8,9 @@ Também tenho um resumo de cada livro estudado em .docx que vou fazendo conforme
 
 
 Aqui estão as minhas referencias para os estudos:
->livro [0] - Get Programming With JavaScript (JOHN R. LARSEN).
->livro [1] - JavaScript.info (ILYA KANTOR).
->livro [2] - Automate Boring Stuff With Python (AL SWEIGART).
+> livro [0] - Get Programming With JavaScript (JOHN R. LARSEN).
+> livro [1] - JavaScript.info (ILYA KANTOR).
+> livro [2] - Automate Boring Stuff With Python (AL SWEIGART).
 
 
 Log:

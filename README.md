@@ -5,8 +5,8 @@ This repository was created to track and show my progress as I learn to code.
 
 
 
-Os codigos são atualizados todos os dias depois dos estudos no meu repositório do GitHub. ( https://github.com/leomac00/learningToCode );
-Também tenho um resumo de cada livro estudado em .docx que vou fazendo conforme vou estudando, ao terminar um livro darei upload nele no meu respositorio de estudos no GitHub.
+Os codigos são atualizados todos os dias depois dos estudos no meu repositório do GitHub cada um separado em um branch de sua respectiva linguagem. ( https://github.com/leomac00/learningToCode );
+Também faço um resumo de cada livro estudado em .docx que vou fazendo conforme vou estudando, ao terminar um livro darei upload nele no meu respositorio de estudos no GitHub.
 
 
 

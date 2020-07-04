@@ -2,6 +2,129 @@
 
 //-----------------------------------------------------------
 
+// var espaco;
+
+// espaco.newLine = function (){
+//     return "\n";
+// };
+// espaco.blank = function(){
+//     return "";
+// };
+//                  // ou pode-se fazer deste outro jeito
+// espaco = {
+//     newLine : function () {return "\n";},
+//     blank : function () {return "";},
+// };
+//                 // Para demonstrar: 
+// console.log("Linha 1");
+// espaco.newLine();
+// espaco.blank();
+// console.log("Linha 2");
+
+//-----------------------------------------------------------
+
+// var point1;
+// var point2;
+// var move;
+// var showPoint;
+// var reflectX;
+// var rotate;
+
+// rotate = function (point) {
+//     spam = {
+//         x : -point.y, 
+//         y : point.x
+//     };
+//    return point = {
+//         x : spam.x,
+//         y : spam.y
+//     };
+// };
+
+// reflectX = function (point) {
+//     return {
+//         x : -point.x,
+//         y : point.y
+//     };
+// };
+// move = function (point, change) {
+//     return {
+//         x: point.x + change.x,
+//         y: point.y + change.y
+//     };
+// };
+
+// showPoint = function (point) {
+//     console.log("( " + point.x + " , " + point.y + " )");
+// };
+
+// point1 = { x : 2, 
+//           y : 5 
+//          };
+
+// point2 = move(point1, { x : 7, y : -6 });
+
+// showPoint(point1);
+// console.log("Move 7 across and 6 down: ");
+// showPoint(point2);
+// console.log("Reflecting the second point in the x-axis: ");
+// point2 = reflectX(point2);
+// showPoint(point2);
+// console.log("Rotating the reflected point by 90 degrees: ");
+// point2 = rotate(point2);
+// showPoint(point2);
+
+//-----------------------------------------------------------
+
+// var planet1 = { name: "Jupiter", radius: 69911 };
+
+// var calculateSizes = function (planet) {
+//     var r = planet.radius;
+//     planet.diameter = 2 * r;
+//     planet.area = 4 * 3.142 * r * r;
+//     planet.volume = 4 * 3.142 * r * r * r / 3;
+// };
+
+// var displaySizes = function (planet) {
+//     console.log(planet.name);
+//     console.log("diameter = " + planet.diameter + " km");
+//     console.log("surface area = " + planet.area + " square km");
+//     console.log("volume = " + planet.volume + " cubic km");
+// };
+
+// calculateSizes(planet1);
+// displaySizes(planet1);
+
+//-----------------------------------------------------------
+
+// var planet1;
+// var getPlanetInfo;
+// var planet2;
+
+// planet1 = {
+//     name: "Jupiter",
+//     position: 5,
+//     type: "Gas Giant",
+//     radius: 69911,
+//     sizeRank: 1
+// };
+// planet2 = {
+//     name: "Xuxa",
+//     position: 666,
+//     type: "Fun house",
+//     radius: 666000,
+//     sizeRank: 69
+// };
+
+// getPlanetInfo = function (planet) {
+//     return planet.name + ": planet number " + planet.position + ", " + planet.type + ", " + planet.radius + "km of radius, size Rank no. " + planet.sizeRank;
+// };
+
+// console.log(getPlanetInfo(planet1));
+// console.log(getPlanetInfo(planet2));
+
+//-----------------------------------------------------------
+
 // var player = {
 //     name : ["Leo","Nicolly"],
 //     place : ["Tower of Doom","Sisters of Fate"],

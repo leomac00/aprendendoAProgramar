@@ -29,3 +29,7 @@ Log:
   >01/07/2020 - Terminei o capítulo 6 do livro[0]; Cheguei na página 72 do livro[2], cheguei longe assim pois já havia começado a ler ele antes de ter a ideia de manter um log dos meus estudos. 
 
   >02/07/2020 - Terminei a parte introdutória do livro[1].
+  
+  >03/07/2020 - Tive alguns imprevistos e nao pude estudar.
+  
+  >04/07/2020 - Terminei a introdução a métodos em JS com auxilio do livro[0](p.93).

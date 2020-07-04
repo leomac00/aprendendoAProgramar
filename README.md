@@ -21,7 +21,7 @@ Aqui estão as minhas referencias para os estudos:
   
   
 
-Log:
+Log de estudos:
   >06/2020 - Curso: Lógica de Programação Essencial; Instituição: Digital Innovation One; ( https://web.digitalinnovation.one/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405/ ).
 
   >06/2020 - Curso: Introdução a Programação com Python; Instituição: Digital Innovation One; ( https://web.digitalinnovation.one/course/introducao-a-programacao-com-python/learning/1a4f5956-fe77-4e5a-bc3a-5364e06b5c79/ ).

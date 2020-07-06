@@ -32,4 +32,4 @@ Log de estudos:
   
   >04/07/2020 - Terminei a introdução a métodos em JS com auxilio do livro[0](p.93).
   
-  >06/07/2020 - Capitulo 7 do livro[0] terminado, aprendi sobre como usar métodos, criando funcoes dentro de objetos para poder ogranizar melhor o codigo, como utilizar funcoes para aplicar em strings e o método Math..
+  >06/07/2020 - Capitulo 7 do livro[0] terminado, aprendi sobre como usar métodos, criando funcoes dentro de objetos para poder ogranizar melhor o codigo, como utilizar funcoes para aplicar em strings e o método Math.; Terminei o capitulo que fala sobre funcoes do livro[2], ;á se aprende a criar e interagir com funcoes e como lidar com os eros (exceptions) que o python pode trazer, tambem fiz o projetos proposto do livro que é de criar um programa que executa a Funcao de Collatz até que se chegue no numero um, todos os arquivos usados no estudos de hoje foram adicionados aos seus respecios branches do presente repositorio.

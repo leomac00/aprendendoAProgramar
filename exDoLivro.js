@@ -2,6 +2,192 @@
 
 //-----------------------------------------------------------
 
+// var spacer = {
+//     blank: function () {
+//       return "";
+//     },
+  
+//     newLine: function () {
+//       return "\n";
+//     },
+  
+//     line: function (length, character) {
+//       var longString = "****************************************".repeat(2);
+//       longString += "----------------------------------------".repeat(2);
+//       longString += "========================================".repeat(2);
+//       longString += "++++++++++++++++++++++++++++++++++++++++".repeat(2);
+//       longString += "                                        ".repeat(2);
+  
+//       length = Math.max(0, length);
+//       length = Math.min(80, length);
+//       return longString.substr(longString.indexOf(character), length);
+//     },
+    
+//     wrap : function (text, length, character) {
+//       var padLength = length - text.length - 3;
+//       var wrapText = character + " " + text;      
+//       wrapText += spacer.line(padLength, " ");
+//       wrapText += character;
+//       return wrapText;
+//     },
+  
+//     box: function (text, length, character) {
+//       var boxText = spacer.newLine();
+//       boxText += spacer.line(length, character) + spacer.newLine();
+//       boxText += spacer.wrap(text, length, character) + spacer.newLine(); 
+//       boxText += spacer.line(length, character) + spacer.newLine();
+//       return boxText;
+//     }
+//   };
+  
+//   var getPlayerName = function (player) {
+//     return player.name;
+//   };
+  
+//   var getPlayerHealth = function (player) {
+//     return player.name + " está com " + player.HP + " HP.";
+//   };
+  
+//   var getPlayerPlace = function (player) {
+//     return player.name + " está em " + player.place;
+//   };
+//   var getPlayerClasse = function (player) {
+//       return player.name + " é um(a) " + player.classe;
+//   };
+//   var getPlayerItems = function (player) {
+//       return player.name + " possui esses items: " + player.items;
+//   };
+  
+//   var getPlayerInfo = function (player, character) {  
+//     var place = getPlayerPlace(player);
+//     var health = getPlayerHealth(player);
+//     var classe = getPlayerClasse(player);
+//     var items = getPlayerItems(player);
+//     var longest = Math.max(place.length, items.length) + 4;
+      
+//     var info = spacer.box(getPlayerName(player), longest, character);
+//     info += spacer.wrap(place, longest, character);
+//     info += spacer.newLine() + spacer.wrap(health, longest, character);
+//     info += spacer.newLine() + spacer.wrap(classe, longest, character);
+//     info += spacer.newLine() + spacer.wrap(items, longest, character);  
+//     info += spacer.newLine() + spacer.line(longest, character);
+  
+//     return info;
+//   };
+  
+//   var player1 = {
+//       name: "Leo",
+//       classe: "Feiticeiro",
+//       place: "Torre do desespero",
+//       items: "celular, computador e oculos",
+//       HP: 100
+//   };
+//   var player2 = {
+//       name: "Nicolly",
+//       classe: "Barbara",
+//       place: "Casa dos elfos caolhos",
+//       items: "espatula, panela e celular",
+//       HP: 80
+//   };
+  
+//   console.log(getPlayerInfo(player1, "="));
+//   console.log(getPlayerInfo(player2, "+"));
+
+//-----------------------------------------------------------
+
+// var spacer = {
+//     blank: function () {
+//       return "";
+//     },
+  
+//     newLine: function () {
+//       return "\n";
+//     },
+  
+//     line: function (length, character) {
+//       var longString = "****************************************";
+//       longString += "----------------------------------------";
+//       longString += "========================================";
+//       longString += "++++++++++++++++++++++++++++++++++++++++";
+//       longString += "                                        ";
+  
+//       length = Math.max(0, length);
+//       length = Math.min(40, length);
+//       return longString.substr(longString.indexOf(character), length);
+//     },
+    
+//     wrap : function (text, length, character) {
+//       var padLength = length - text.length - 3;
+//       var wrapText = character + " " + text;      
+//       wrapText += spacer.line(padLength, " ");
+//       wrapText += character;
+//       return wrapText;
+//     },
+  
+//     box: function (text, character) {
+//       var boxText = spacer.newLine();
+//       var length = text.length;
+//       boxText += spacer.line(length+4, character) + spacer.newLine();
+//       boxText += character + spacer.line(length+2, " ") + character + spacer.newLine();
+//       boxText += spacer.wrap(text, length+4, character) + spacer.newLine();
+//         boxText += character + spacer.line(length+2, " ") + character + spacer.newLine();
+//       boxText += spacer.line(length+4, character) + spacer.newLine();
+//       return boxText;
+//     }
+//   };
+  
+//   console.log(spacer.box("Isso só funciona para str de ate 40", "="));
+//   console.log(spacer.box("Mars", "*"));
+
+//-----------------------------------------------------------
+
+// var planet = "Jupiter";
+// var bigPlanet = planet.toUpperCase();
+// var getBig = function (text){
+//     text = text.toUpperCase();
+//     return text;
+// };
+// var getSmall = function (text){
+//     return console.log(text + " becomes " + text.toLowerCase());
+// };
+// console.log(planet + " becomes " + bigPlanet);
+// console.log(getBig("leonardo"));
+// getSmall("SUPIMPA");
+
+
+//-----------------------------------------------------------
+
+// var line = function (lineLength) {
+//     var line = "========================================";
+//     lineLength = Math.max(0, lineLength);
+//     lineLength = Math.min(40, lineLength);
+//     return line.substr(0, lineLength);
+//   };
+  
+//   var spaceLine = function (lineLength) {
+//     var line = "                                        ";
+//     lineLength = Math.max(0, lineLength);
+//     lineLength = Math.min(40, lineLength);
+//     return line.substr(0, lineLength);
+//   };
+  
+  
+//   var emptyBox = function (boxLength) {
+//     var line = "========================================";
+//     var space = "                                        ";
+//     var num = 2;
+//     boxLength = Math.max(0, boxLength);
+//     boxLength = Math.min(40, boxLength);
+//     return line.substr(0, boxLength) + "\n=" + space.substr(0, boxLength - num) + "=\n=" + space.substr(0, boxLength - num) + "=\n=" +  space.substr(0, boxLength - num) + "=\n=" + line.substr(0, boxLength);
+//   };
+  
+//   console.log(line(30));
+//   console.log(line(40));
+//   console.log(spaceLine(50) + "home");
+//   console.log(emptyBox(60));
+
+//-----------------------------------------------------------
+
 // var espaco;
 
 // espaco.newLine = function (){

@@ -30,6 +30,4 @@ Log de estudos:
 
   >02/07/2020 - Terminei a parte introdutória do livro[1].
   
-  >03/07/2020 - Tive alguns imprevistos e nao pude estudar.
-  
   >04/07/2020 - Terminei a introdução a métodos em JS com auxilio do livro[0](p.93).

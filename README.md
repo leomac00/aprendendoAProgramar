@@ -31,3 +31,5 @@ Log de estudos:
   >02/07/2020 - Terminei a parte introdutória do livro[1].
   
   >04/07/2020 - Terminei a introdução a métodos em JS com auxilio do livro[0](p.93).
+  
+  >06/07/2020 - Capitulo 7 do livro[0] terminado, aprendi sobre como usar métodos, criando funcoes dentro de objetos para poder ogranizar melhor o codigo, como utilizar funcoes para aplicar em strings e o método Math..

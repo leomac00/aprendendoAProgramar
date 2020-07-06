@@ -1,9 +1,14 @@
-print(round(-12.59999))
+def functionn():
+    pass
+print(type(functionn()))
+########################################
+#print(round(-12.59999))
 #########################################
 # spam = 1
 # while spam <= 10:
 #     print(spam)
 #     spam += 1
+
 ##########################################
 # for i in range (1, 11):
 #     print(i)

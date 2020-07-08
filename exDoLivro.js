@@ -1,4 +1,69 @@
 
+//-----------------------------------------------------------
+
+// // Exemplo de métodos em arrays
+// var items = [];
+// var item = "The Pyramids";
+// var removed;
+
+// items.push(item);
+// items.push("The Grand Canyon");
+// items.push("Bondi Beach");
+// items.push("Ubatuba","Pindamonhangaba","Itaquaquecetuba");
+
+// console.log("Aqui está a lista de items depois dos 3 primeiros pushes: " + items);
+
+// items[0] = "Fernando de Noronha"
+// removed = items.pop();
+
+// console.log("Poping " + removed + " and adding " + items[0]);
+// console.log("Mostrando o restante da lista usando o 'join': " + items.join(" and "));
+
+//-----------------------------------------------------------
+
+// var getVisitorReport = function (visitorArray, dayInWeek) {
+//     var days = ["Segunda-Feira",
+//                 "Terça-Feira",
+//                 "Quarta-Feira",
+//                 "Quinta-Feira",
+//                 "Sexta-Feira"
+//                ];
+//     var index = dayInWeek - 1;
+//     var visitorReport; // Perceba que aqui é criada a variavel para depois montar, dessa forma o codigo fica mais organizado.
+//     visitorReport = "Houveram ";
+//     visitorReport += visitorArray[index];
+//     visitorReport += " acessos na ";
+//     visitorReport += days[index];
+//     return visitorReport;
+// };
+
+// var visitors = [111,222,333,444,555]; //Aqui está representado a quantidade de visitantes por dia.
+
+// var day = 2; //Terça-Feira.
+// var report = getVisitorReport(visitors, day);
+
+// console.log(report);
+
+//-----------------------------------------------------------
+
+// // Organização: este codigo organiza lugares para visitar utilizando arrays
+// var lugar1 = {nome: "Belo Horizonte", estado: "Minas Gerais"};
+// var lugar2 = {nome: "Catanduva", estado: "Sao Paulo"};
+// var lugar3 = {nome: "Ilha das Couves", estado: "Sao Paulo"};
+
+// var esseAno = [lugar1, lugar2];
+// var proximoAno = [lugar3];
+                  
+// console.log(esseAno);
+// console.log(proximoAno);
+
+//-----------------------------------------------------------
+
+// // exemplo de array (listas ordenadas)
+// var array1 = ["gato","cachorro","periquito"];
+// var array2 = ["elefante","girafa","refrigerante"];
+// console.log(array1);
+// console.log(array2)
 
 //-----------------------------------------------------------
 

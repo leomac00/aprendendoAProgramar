@@ -37,3 +37,6 @@ Log de estudos:
   >07/07/2020 - Iniciado o estudo de listas no capitulo 4 do livro[2], aprendido um macetes para declarar parametros de lista para variaveis e como trabalhar com ela, como unir, separar e trabalhar seus dados.
   
   >08/07/2020 - Terminado o capítulo que discorre sobre arrays no livro[1], ele ensina sobre métodos para tratar arrays organizaçao dentro do codigo utilizando os arrays e funcoes que interagem com eles.
+  
+  >10/07/2020 - Terminado o capitulo 4 que fala sobre listas, tuplas e seus métodos do livro[2].
+  

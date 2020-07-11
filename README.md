@@ -40,3 +40,5 @@ Log de estudos:
   
   >10/07/2020 - Terminado o capitulo 4 que fala sobre listas, tuplas e seus métodos do livro[2].
   
+  >11/07/2020 - Continuando o estudo do so do forEach em JavaScript usando o livro[1], está um pouco confuso como os argumentos sao passados para a funcao ainda mas aos poucos estou entendendo.
+  

@@ -1,5 +1,52 @@
 
 //-----------------------------------------------------------
+// // contando o total de letra usando o forEach
+// var items;
+// var showInfo;
+// var total = 0;
+// items = [
+//   "The Pyramids",
+//   "The Grand Canyon",
+//   "Bondi Beach"
+// ];
+
+// showInfo = function (item, index, array) {
+//     total += array[index].length;
+//     console.log(item);
+//     return total;
+// };
+
+// items.forEach(showInfo);
+// console.log(total);
+
+//-----------------------------------------------------------
+
+// // Exemplo de ForEach()
+// var items;
+// var showInfo;
+
+// items = [
+//   "The Pyramids",
+//   "The Grand Canyon",
+//   "Bondi Beach",
+//   "Ubatuba"
+// ];
+
+// showInfo = function (itemToShow) {
+//     var num = items.length;
+//     var letters = 0;
+//     for (var i = 0 ; i < num; i++){
+//         console.log(itemToShow[i]);
+//         console.log("There are " + itemToShow[i].length + " letters in this item");
+//         console.log("----------------------------------");
+//         letters += itemToShow[i].length;
+//     };
+//     console.log("There are " + letters + " letters in total")
+// };
+
+// showInfo(items)
+
+//-----------------------------------------------------------
 
 // // Exemplo de métodos em arrays
 // var items = [];

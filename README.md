@@ -20,6 +20,7 @@ Aqui estão as minhas referencias para os estudos:
   >livro [2] - Automate Boring Stuff With Python (AL SWEIGART).
   
   
+  Meu perfil no CodeWars: https://www.codewars.com/users/leomac00 
 
 Log de estudos:
   >06/2020 - Curso: Lógica de Programação Essencial; Instituição: Digital Innovation One; ( https://web.digitalinnovation.one/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405/ ).

@@ -44,3 +44,5 @@ Log de estudos:
   >11/07/2020 - Continuando o estudo do so do forEach em JavaScript usando o livro[1], está um pouco confuso como os argumentos sao passados para a funcao ainda mas aos poucos estou entendendo.
   
   >13/07/2020 - Comecei a fazer alguns desafios dos sites Coding Bat e CodeWars para treinar alguns conceitos. Foco em python mas alguns desafios em javaScript também. Estou me acostumando a usar camelCase com maior frequencia e como padronizar codigos.
+  
+  >14/07/2020 - Passei a tarde treinando kata's de python no CodeWars, atingi o rank 6kyu

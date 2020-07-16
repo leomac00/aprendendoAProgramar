@@ -1,4 +1,39 @@
+# this program returns a website domain name
+def domain_name(url):
+    from urllib.parse import urlparse
+    url = urlparse(url)
+    if len(url.netloc) > len(url.path):
+        url = url.netloc.split('.')
+        if url[0] == 'www':
+            url = url[1]
+        else:
+            url = url[0]
+    elif len(url.netloc) < len(url.path):
+        url = url.path.split('.')
+        if url[0] == 'www':
+            url = url[1]
+        else:
+            url = url[0]
+    return (url)
 
+domain_name("http://google.com")
+domain_name("http://google.co.jp")
+domain_name("www.xakep.ru")
+domain_name("https://youtube.com")
+######################################
+# # this program return the hex value for a given RGB value
+# def rgb(r, g, b):
+#     list = [r,g,b] #I turned the arguments into a list so I can use 'for' more easily
+#     for index in range(len(list)):
+#         if list[index] > 255: #the challenge says we have to round the number lower than 0 to 0 and greater than 255 to 255 so that's what we do here
+#             list[index] = 255
+#         elif list[index] < 0:
+#             list[index] = 0
+#         list[index] = hex(list[index]) #now we convert it to hex()
+#         list[index] = list[index][2:].upper() #here we start formatting it to look like the result we want
+#         if len(list[index]) == 1:
+#             list[index] = '0' + list[index] #since the converted number might have just one valid digit we place one more zero at the front when it does
+#     return (''.join(list))
 #############################################
 # def max_sequence(arr):
 #     #My general idea is to check for each sub-array size inside the original arrray and each
@@ -84,47 +119,3 @@
 # zip(*theArray)
 
 ################################################
-# bacon = [3.14, 'cat', 11, 'cat', True]
-# print(bacon.index('cat'))
-################################################
-# spam = ["a","b","c","d"]
-# print(spam[int(int('3' * 2) / 11)])
-# print(spam[:2])
-#################################################
-#este programa testa possiveis erros ao acessar valores dentro de uma lista
-# import random
-# spam = 5
-# lista = ["gato","rato"]
-# try:
-#     print(lista[spam])
-# except TypeError:
-#     print("erro no tipo do valor do argumento da lista, convertendo para int")
-#     spam = int(round(spam))
-# except IndexError:
-#     spam = random.randint(0,len(lista)-1)
-#     print("erro no indice da lista, acessando o indice aleatorio no. {} da lista".format(spam))
-# finally:
-#     print(lista[spam])
-########################################
-# def functionn():
-#     pass
-# print(type(functionn()))
-########################################
-#print(round(-12.59999))
-#########################################
-# spam = 1
-# while spam <= 10:
-#     print(spam)
-#     spam += 1
-
-##########################################
-# for i in range (1, 11):
-#     print(i)
-##########################################
-# spam = int(input('Type in a value: '))
-# if spam == 1:
-#     print('Hello')
-# elif spam == 2:
-#     print('Howdy')
-# else:
-#     print('Greetings')

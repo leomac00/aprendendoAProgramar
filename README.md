@@ -46,3 +46,5 @@ Log de estudos:
   >13/07/2020 - Comecei a fazer alguns desafios dos sites Coding Bat e CodeWars para treinar alguns conceitos. Foco em python mas alguns desafios em javaScript também. Estou me acostumando a usar camelCase com maior frequencia e como padronizar codigos.
   
   >14/07/2020 - Passei a tarde treinando kata's de python no CodeWars, atingi o rank 6kyu
+  
+  >16/07/2020 - Comecei a estudar dicionarios em python. continuei com os challenges no codewars. arquivos dos challenges em python foram colocados no repositorio

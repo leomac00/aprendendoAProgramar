@@ -1,4 +1,70 @@
 
+
+//-----------------------------------------------------------
+
+// var displayQuestion = function (questionArray){
+//     var options = [ "A", "B", "C", "D", "E" ];
+//     questionArray.forEach(function (item,i){ //Aqui o programa vai correr por cada questao no array de questoes passado e primeiramente imprimir qual é a pergunta
+//         console.log('Question No.' + (i+1))
+//         console.log(item.question)
+//         item.answers.forEach(function (answer,j){ // Aqui o programa ira correr a lista de respostas que fica armazenada em '.answers' de cada objeto e imprimir a opcao correspondetne baseada no indice de cada uma e a resposta correspondente.
+//             console.log(options[j] + ' - ' + answer)
+//         })
+//         console.log('\n')
+//     })
+// }
+// var question1 = {
+//     question : "What is the capital of France?",
+//     answers : [
+//       "Bordeaux",
+//       "F",
+//       "Paris",
+//       "Brussels"
+//     ],
+//     correctAnswer : "Paris"
+//   };
+// var question2 = {
+//     question : "What is the capital of Russia?",
+//     answers : [
+//       "Bordeaux",
+//       "F",
+//       "Paris",
+//       "Moscow"
+//     ],
+//     correctAnswer : "Moscow"
+//     };
+// var questions = [question1, question2];
+// displayQuestion(questions);
+
+//-----------------------------------------------------------
+
+// [ "Dax", "Jahver", "Kandra" ].forEach(function (item, index, wholeArray) {
+//     console.log("Item: " + item);
+//     console.log("Index: " + index);
+//     console.log("Array: " + wholeArray);
+//   });
+
+//-----------------------------------------------------------
+
+// var getTotalBill = function (itemList) {
+// 	var total = 0;
+// // a seguir ele vai pegar a lista que estiver como argumento para executar o que segue.
+// 	itemList.forEach(function (item) { // usando apenas um parametro na funcao o forEach vai pegar apenas seu primeiro argumento que é o de elemento, no caso ele vai pegar um dos elementos de cada vez
+// 		total += item.cost * item.number; // para cada elemento ele vai multiplicar o '.cost' pelo '.number' e somar na variavel 'total'
+// 	});
+
+// 	return total; // e vai devolver ao programa o valor da variavel 'total'
+// };
+
+// var items = [{cost:1 ,number:10},
+//              {cost:2 ,number:5},
+//              {cost:3 ,number:3},
+//              {cost:4 ,number:2},
+//              {cost:5 ,number:1}]
+
+
+// console.log('Soma dos custos: ' + getTotalBill(items));
+
 //-----------------------------------------------------------
 // // contando o total de letra usando o forEach
 // var items;

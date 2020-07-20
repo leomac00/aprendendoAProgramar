@@ -47,4 +47,7 @@ Log de estudos:
   
   >14/07/2020 - Passei a tarde treinando kata's de python no CodeWars, atingi o rank 6kyu
   
-  >16/07/2020 - Comecei a estudar dicionarios em python. continuei com os challenges no codewars. arquivos dos challenges em python foram colocados no repositorio
+  >16/07/2020 - Comecei a estudar dicionarios em python. continuei com os challenges no codewars. arquivos dos challenges em python foram colocados no repositorio.
+  
+  >20/07/2020 - Passei alguns dias sem estudar pois estive de viagem; hoje voltei a estudar javaScript, terminei o capitulo sobre arrays, aprendi a mexer com forEach (basicamente um loop 'for' de python só que para cada item de um array); terminei todos os exercicios propostos e agora estou no capitulo 9 do livro[1].
+  

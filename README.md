@@ -51,6 +51,6 @@ Log de estudos:
   
   >20/07/2020 - Passei alguns dias sem estudar pois estive de viagem; hoje voltei a estudar javaScript, terminei o capitulo sobre arrays, aprendi a mexer com forEach (basicamente um loop 'for' de python só que para cada item de um array); terminei todos os exercicios propostos e agora estou no capitulo 9 do livro[0].
   
-  >21/07/2020 - Comecei a ler alguns artigos sobre OOP, iniciei o capitulo 9 do livro[0] que trata sobre funcoes que criam objetos, aprendendo assim sobre o 'new' e o 'this'.
+  >21/07/2020 - Comecei a ler alguns artigos sobre OOP, iniciei o capitulo 9 do livro[0] que trata sobre funcoes que criam objetos, aprendendo assim sobre o 'new' e o 'this'. Também comecei a estudar sobre P5.js utilizando as video aulas do canal Coding Train.
   
   

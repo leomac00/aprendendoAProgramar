@@ -2,6 +2,192 @@
 
 //-----------------------------------------------------------
 
+// //Mais um exemplo de como modificar e incluir parametros em objetos:
+// var Item = function(name, quantity){
+//     this.name = name; 
+//     this.quantity = quantity;
+//     this.raridade = [];
+//     this.showItem = function(){
+//         console.log('Item: ' + name + '; quantidade: ' + quantity);
+//     };
+//     this.addRar = function (rar){
+//         this.raridade.unshift(rar);
+//     }
+// };
+
+// var itemTeste = new Item('Garrafas de água',5); 
+// itemTeste.showItem(); 
+
+//-----------------------------------------------------------
+
+// // Criando um novo objeto utilizando uma funcao com 'new' e 'this'
+// var Item = function(name, quantity){
+//     this.name = name; //cria-se usando o this para atribuir os valores ao objeto vazio criado pelo 'new'
+//     this.quantity = quantity;
+    
+//     this.showItem = function(){
+//         console.log('Item: ' + name + '; quantidade: ' + quantity);
+//     };
+// };
+
+// var itemTeste = new Item('Garrafas de água',5); //Usa-se o new para que o JS entenda que estamos querendo criar um objeto vazio novo para a variavel em questao.
+// itemTeste.showItem(); // Exemplo de acesso da funcao 'showItem()' criada pela funcao 'Item()'
+
+//-----------------------------------------------------------
+
+// // Ideia geral de como fazer uma funcao que cria objetos:
+// var buildPlanet = function (name, position, type) {
+//     var planet = {}; // You create an empty object
+//     planet.name = name; // Assign properties
+//     planet.position = position; // Assign properties
+//     planet.type = type; // Assign properties
+//     return planet; // You return the object
+//     };
+
+//-----------------------------------------------------------
+
+// // métodos em objetos:
+// var buildPlanet = function (name, position, type) {
+//     var planet = {};
+  
+//     planet.name = name;
+//     planet.position = position;
+//     planet.type = type;
+
+//     planet.showPlanet = function () {
+//         var info = planet.name;
+//         info += ": planet " + planet.position;
+//         info += " - " + planet.type;
+//         console.log(info);
+//     };
+  
+//     return planet;
+// };
+
+// var planet1 = buildPlanet(
+//     "Jupiter",
+//     5,
+//     "Gas Giant"
+// );
+
+// planet1.showPlanet();
+
+//-----------------------------------------------------------
+
+// var spacer = {
+//     blank: function () {
+//       return "";
+//     },
+  
+//     newLine: function () {
+//       return "\n";
+//     },
+  
+//     line: function (length, character) {
+//       var longString = "****************************************";
+//       longString += "----------------------------------------";
+//       longString += "========================================";
+//       longString += "++++++++++++++++++++++++++++++++++++++++";
+//       longString += "                                        ";
+  
+//       length = Math.max(0, length);
+//       length = Math.min(40, length);
+//       return longString.substr(longString.indexOf(character), length);
+//     },
+    
+//     wrap : function (text, length, character) {
+//       var padLength = length - text.length - 3;
+//       var wrapText = character + " " + text;      
+//       wrapText += spacer.line(padLength, " ");
+//       wrapText += character;
+//       return wrapText;
+//     },
+  
+//     box: function (text, length, character) {
+//       var boxText = spacer.newLine();
+//       boxText += spacer.line(length, character) + spacer.newLine();
+//       boxText += spacer.wrap(text, length, character) + spacer.newLine(); 
+//       boxText += spacer.line(length, character) + spacer.newLine();
+//       return boxText;
+//     }
+//   };
+  
+  
+//   // Player display code
+  
+//   var getPlayerName = function (player) {
+//     return player.name;
+//   };
+  
+//   var getPlayerHealth = function (player) {
+//     return player.name + " has health " + player.health;
+//   };
+  
+//   var getPlayerPlace = function (player) {
+//     return player.name + " is in " + player.place;
+//   };
+  
+//   var getPlayerItems = function (player) {
+//     var itemsString = "Items:" + spacer.newLine();
+  
+//     player.items.forEach(function (item,i) {
+//       itemsString += "   - " + "(" +(i+1) + ") " + item + spacer.newLine();
+//     });
+    
+//     return itemsString;
+//   };
+  
+//   var getPlayerInfo = function (player, character) {  
+//     var place = getPlayerPlace(player);
+//     var health = getPlayerHealth(player);
+//     var longest = Math.max(place.length, health.length) + 4;
+  
+//     var info = spacer.box(getPlayerName(player), longest, character);
+//     info += spacer.wrap(place, longest, character);
+//     info += spacer.newLine() + spacer.wrap(health, longest, character);
+//     info += spacer.newLine() + spacer.line(longest, character);
+    
+//     info += spacer.newLine();
+//     info += "  " + getPlayerItems(player);
+//     info += spacer.newLine();
+//     info += spacer.line(longest, character);
+    
+//     info += spacer.newLine();
+  
+//     return info;
+//   };
+  
+//   var showPlayerInfo = function (player, character) {
+//     console.log(getPlayerInfo(player, character));
+//   };
+  
+//   var showItem = function (player, itemNumber){
+//       return (player.items[itemNumber])
+//   };
+  
+//   var addItem = function (player, item){
+//       player.items.push(item);
+//       return "Item added to inventory!"
+//   };
+  
+//   // Create a player
+  
+//   var player1 = {
+//     name: "Kandra",
+//     place: "The Dungeon of Doom",
+//     health: 50,
+//     items : ["a trusty lamp"]
+//   };
+  
+//   showPlayerInfo(player1, "="); 
+  
+//   player1.items.push("a rusty key"); 
+  
+//   showPlayerInfo(player1, "*"); 
+  
+
+//-----------------------------------------------------------
+
 // var displayQuestion = function (questionArray){
 //     var options = [ "A", "B", "C", "D", "E" ];
 //     questionArray.forEach(function (item,i){ //Aqui o programa vai correr por cada questao no array de questoes passado e primeiramente imprimir qual é a pergunta

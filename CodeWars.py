@@ -1,25 +1,64 @@
-# this program returns a website domain name
-def domain_name(url):
-    from urllib.parse import urlparse
-    url = urlparse(url)
-    if len(url.netloc) > len(url.path):
-        url = url.netloc.split('.')
-        if url[0] == 'www':
-            url = url[1]
-        else:
-            url = url[0]
-    elif len(url.netloc) < len(url.path):
-        url = url.path.split('.')
-        if url[0] == 'www':
-            url = url[1]
-        else:
-            url = url[0]
-    return (url)
 
-domain_name("http://google.com")
-domain_name("http://google.co.jp")
-domain_name("www.xakep.ru")
-domain_name("https://youtube.com")
+
+#########################################
+
+# #Criador de Hashtags, este programa cria hashtags a partir de uma frase digitada pelo usuario
+# def generate_hashtag(frase):
+#     if frase == '':
+#         return False
+#     if len(frase) > 140:
+#         return False
+#     else:
+#         texto = ''
+#         frase = frase.split(' ')
+#         for palavra in frase:
+#             texto += palavra.capitalize()
+#         return '#' + texto
+#
+# print(generate_hashtag('oi eu        sou goku'))
+#######################################
+
+#Este programa verifica quais palavras de um array sao anagramas de uma palavra
+# def anagrams(word, anagrams):
+#     wordCount = {}
+#     result = []
+#     for character in word:
+#         wordCount.setdefault(character, 0)
+#         wordCount[character] += 1
+#     for wordCheck in anagrams:
+#         anagramCount = {}
+#         for character in wordCheck:
+#             anagramCount.setdefault(character, 0)
+#             anagramCount[character] += 1
+#         if anagramCount == wordCount:
+#             result.append(wordCheck)
+#         else:
+#             pass
+#     return result
+
+################################################
+# # this program returns a website domain name
+# def domain_name(url):
+#     from urllib.parse import urlparse
+#     url = urlparse(url)
+#     if len(url.netloc) > len(url.path):
+#         url = url.netloc.split('.')
+#         if url[0] == 'www':
+#             url = url[1]
+#         else:
+#             url = url[0]
+#     elif len(url.netloc) < len(url.path):
+#         url = url.path.split('.')
+#         if url[0] == 'www':
+#             url = url[1]
+#         else:
+#             url = url[0]
+#     return (url)
+#
+# domain_name("http://google.com")
+# domain_name("http://google.co.jp")
+# domain_name("www.xakep.ru")
+# domain_name("https://youtube.com")
 ######################################
 # # this program return the hex value for a given RGB value
 # def rgb(r, g, b):

@@ -1,5 +1,204 @@
 
 
+// //-----------------------------------------------------------
+
+// //Criador de lugares para o jogo, exemplo do livro utilizando funcoes já criadas para formatacao de textos.
+// // The spacer namespace
+
+// var spacer = {
+//     blank: function () {
+//       return "";
+//     },
+  
+//     newLine: function () {
+//       return "\n";
+//     },
+  
+//     line: function (length, character) {
+//       var longString = "****************************************";
+//       longString += "----------------------------------------";
+//       longString += "========================================";
+//       longString += "++++++++++++++++++++++++++++++++++++++++";
+//       longString += "                                        ";
+  
+//       length = Math.max(0, length);
+//       length = Math.min(40, length);
+//       return longString.substr(longString.indexOf(character), length);
+//     },
+    
+//     wrap : function (text, length, character) {
+//       var padLength = length - text.length - 3;
+//       var wrapText = character + " " + text;      
+//       wrapText += spacer.line(padLength, " ");
+//       wrapText += character;
+//       return wrapText;
+//     },
+  
+//     box: function (text, length, character) {
+//       var boxText = spacer.newLine();
+//       boxText += spacer.line(length, character) + spacer.newLine();
+//       boxText += spacer.wrap(text, length, character) + spacer.newLine(); 
+//       boxText += spacer.line(length, character) + spacer.newLine();
+//       return boxText;
+//     }
+//   };
+  
+  
+//   // The Place constructor
+  
+//   var Place = function (title, description) {
+//       var newLine = spacer.newLine();
+    
+//       this.title = title;
+//       this.description = description;
+//       this.items = [];
+//       this.exits = [];
+    
+//       this.getItemsInfo = function () {
+//           var itemsString = "Items: " + newLine;
+//           this.items.forEach(function (item) {
+//               itemsString += "   - " + item;
+//               itemsString += newLine;
+//           });
+//           return itemsString;
+//       };
+    
+//       this.getExitsInfo = function () {
+//           var exitsString = "Exits from " + this.title;
+//           exitsString += ":" + newLine;
+          
+//           this.exits.forEach(function (exit) {
+//               exitsString += "   - " + exit.title;
+//               exitsString += newLine;
+//           });
+        
+//           return exitsString;
+//       };
+  
+//       this.getTitleInfo = function () {
+//           return spacer.box(
+//               this.title,
+//               this.title.length + 4,
+//               "="
+//           );
+//       };
+  
+//       this.getInfo = function () {
+//           var infoString = this.getTitleInfo();
+//           infoString += this.description;
+//           infoString += newLine + newLine;
+//           infoString += this.getItemsInfo() + newLine;
+//           infoString += this.getExitsInfo();
+//           infoString += spacer.line(40, "=") + newLine;
+//           return infoString;
+//       };
+  
+    
+//       this.showInfo = function () {
+//           console.log(this.getInfo());
+//       };
+  
+//       this.addItem = function (item) {
+//           this.items.push(item);
+//       };
+    
+//       this.addExit = function (exit) {
+//           this.exits.push(exit);
+//       };
+//   };
+  
+  
+//   // Test the Place constructor
+  
+//   var library = new Place(
+//       "The Old Library",
+//       "You are in a library. Dusty books line the walls."
+//   );
+  
+//   var kitchen = new Place(
+//       "The Kitchen",
+//       "You are in the kitchen. There is a disturbing smell."
+//   );
+  
+//   var hall = new Place(
+//       "The Main Hall",
+//       "You are in a large hall. It is strangely empty."
+//   );
+  
+//   library.addItem("a rusty key");
+//   library.addExit(kitchen);
+//   library.addExit(hall);
+  
+//   library.showInfo();
+
+//-----------------------------------------------------------
+
+// //Criador de lugares para o jogo, exemplo próprio
+
+// //Criador de Lugar
+// var Lugar = function (nome, descricao) {
+//     this.nome = nome;
+//     this.descricao = descricao;
+//     this.items = [];
+//     this.saidas = [];
+
+//     this.informacoes = function () {
+//         var informacoes = 'Local: ' + this.nome + '.\n';
+//         informacoes += 'Descricao: ' + this.descricao + '.\n';
+//         informacoes += 'Itens: ' + this.items.join('; \n       ') + '.\n';
+//         informacoes += 'Saidas: ' + this.saidas + '.\n';
+//         console.log(informacoes);
+//     };
+
+//     this.addItem = function(item) {
+//         this.items.push(item);
+//     };
+
+//     this.addSaida = function(saida) {
+//         this.saidas.push(saida);
+//     };
+// };
+
+// var salao = new Lugar ('Salao', 'Um salao cheio de estatuas e quadros. Poeira se amontoa nos cantos, parece que ninguem vive aqui há anos.');
+// salao.addItem('Lanterna');
+// salao.addItem('Tocha');
+// salao.addSaida('Cozinha');
+
+// salao.informacoes();
+
+//-----------------------------------------------------------
+
+// // Quiz()
+// var Quiz = function (pergunta, resposta) {
+//     this.pergunta = pergunta;
+//     this.resposta = resposta;
+//     this.opcoes = [];
+    
+//     this.addOpcao = function (opcao) {
+//         this.opcoes.push(opcao);
+//     };
+//     this.mostrarQuiz = function () {
+//         console.log(this.pergunta);
+//         this.opcoes.forEach( function (opcao, i) {
+//             console.log("(" + (i+1) + ") " + opcao);
+//         }) ;
+//     };
+// };
+
+// var questao1 = new Quiz("Qual o animal que come com o rabo?",
+//                         "Todos.");
+// questao1.addOpcao("Todos.");
+// questao1.addOpcao("Cachorro.");
+// questao1.addOpcao("Gato.");
+// questao1.addOpcao("Sapato.");
+
+// questao1.mostrarQuiz();
+
+//-----------------------------------------------------------
+
+// var item1 = new Planet("Jupiter", 5, "Gas Giant");
+// console.log(item1 instanceof Planet);
+
 //-----------------------------------------------------------
 
 // //Mais um exemplo de como modificar e incluir parametros em objetos:

@@ -54,3 +54,5 @@ Log de estudos:
   >21/07/2020 - Comecei a ler alguns artigos sobre OOP, iniciei o capitulo 9 do livro[0] que trata sobre funcoes que criam objetos, aprendendo assim sobre o 'new' e o 'this'. Também comecei a estudar sobre P5.js utilizando as video aulas do canal Coding Train.
   
   >22/07/2020 - COntinuando o capitulo sobre dicionarios no livro[2] aprendi sobre estruturacao de dados e alguns metodos utlizados com dicionarios como o get() e o setdefault(). tambem comecei a ler o livro Clean Code por Robert Cecil Martin indicado por um amigo.
+
+>23/07/2020 - Continuei os estudos sobre building functions no livro de JS, entedi como melhor usa-la, fquei mais ler o livro sobre Clean Code.

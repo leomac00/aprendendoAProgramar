@@ -57,3 +57,5 @@ Log de estudos:
 
 >23/07/2020 - Continuei os estudos sobre building functions no livro de JS, entedi como melhor usa-la, foquei mais ler o livro sobre Clean Code. terminei alguns katas no codewars.
 Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouseY
+
+>24/07/2020 - Apenas fiz alguns exercicios em python no codewars, fui apresentado ao conceito de cache.

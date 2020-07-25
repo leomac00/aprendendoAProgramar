@@ -19,8 +19,12 @@ Aqui estão as minhas referencias para os estudos:
 
   >livro [2] - Automate Boring Stuff With Python (AL SWEIGART).
   
+  >livro[3] - Clean Code (ROBERT C. MARTIN).
+  
   
   Meu perfil no CodeWars: https://www.codewars.com/users/leomac00 
+  
+  
 
 Log de estudos:
   >06/2020 - Curso: Lógica de Programação Essencial; Instituição: Digital Innovation One; ( https://web.digitalinnovation.one/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405/ ).
@@ -58,7 +62,7 @@ Log de estudos:
 >23/07/2020 - Continuei os estudos sobre building functions no livro de JS, entedi como melhor usa-la, foquei mais ler o livro sobre Clean Code. terminei alguns katas no codewars.
 Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouseY
 
->24/07/2020 - Apenas fiz alguns exercicios em python no codewars, fui apresentado ao conceito de cache. Update: terminei o capitulo sobre dicionarios, temrina explicando sobre dicionarios em dicionarios e usar o loop for com dois indices para acessar a key e a value de um dicionario. Codigos dos projeto do fim do capitulo, testes do capitulo e o que fiz no codewars foram atualizados no repositorio de python.
+>24/07/2020 - Apenas fiz alguns exercicios em python no codewars, fui apresentado ao conceito de cache. Update: terminei o capitulo sobre dicionarios, temrina explicando sobre dicionarios em dicionarios e usar o loop for com dois indices para acessar a key e a value de um dicionario. Codigos dos projeto do fim do capitulo, testes do capitulo e o que fiz no codewars foram atualizados no repositorio de python. Também aproveitei de dei upload dos arquivos que usei durante o curso intordutorio de python que fiz mês passado.
 
 
 

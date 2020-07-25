@@ -1,3 +1,22 @@
+
+#exemplo de dicionarios dentro de dicionarios
+convidados = {'Alice' : {'Bolos' : 1, 'Refrigerantes' : 2, 'Baloes' : 3},
+                   'Antonia' : {'Salgadinhos' : 1, 'Sucos' : 2, 'Bolos' : 3},
+                   'Elis' : {'Bolos' : 1, 'Salgadinhos' : 2, 'Sucos' : 3}}
+
+def totalItens(convidados,item): #Retorna o total do item discriminado
+    trazidos = 0
+    for i, k in convidados.items():
+        trazidos = trazidos + k.get(item, 0)
+    return print('- Numero de {} para a festa: {}'.format(item, trazidos))
+
+totalItens(convidados,'Bolos')
+totalItens(convidados,'Refrigerantes')
+totalItens(convidados,'Baloes')
+totalItens(convidados,'Sucos')
+
+##########################################
+
 # #Jogo da velha / tic-tac-toe
 # theBoard = {
 #     'top-L':' ','top-M':' ','top-R':' ',

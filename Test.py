@@ -1,4 +1,9 @@
-
+spam = {'cat':1}
+print(spam['cat'])
+print(spam.values())
+#############################################
+# spam = {'bar': 100}
+# print(spam['foo'])
 #############################################
 # def max_sequence(arr):
 #     #My general idea is to check for each sub-array size inside the original arrray and each

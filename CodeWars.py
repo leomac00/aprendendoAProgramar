@@ -1,4 +1,22 @@
 
+###############################################
+
+# def fibonacci(n):
+#     soma = 1
+#     ultimoCalculado = 1
+#     penultimoCalculado = 0
+#     i = 0
+#     if n in [0,1,1]:
+#         return n
+#     for i in range (n-1):
+#         soma = ultimoCalculado + penultimoCalculado
+#         penultimoCalculado = ultimoCalculado
+#         ultimoCalculado = soma
+#     return soma
+#
+#
+# print(fibonacci(50))
+# print(str(12586269025) + '<= resultado para n = 50' )
 
 #########################################
 

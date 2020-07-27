@@ -64,6 +64,6 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 
 >24/07/2020 - Apenas fiz alguns exercicios em python no codewars, fui apresentado ao conceito de cache. Update: terminei o capitulo sobre dicionarios, temrina explicando sobre dicionarios em dicionarios e usar o loop for com dois indices para acessar a key e a value de um dicionario. Codigos dos projeto do fim do capitulo, testes do capitulo e o que fiz no codewars foram atualizados no repositorio de python. Também aproveitei de dei upload dos arquivos que usei durante o curso intordutorio de python que fiz mês passado.
 
->27/07/2020 - Estudei mais um pouco sobre P5.js, aprendi mapping e random. continuo minha leitura do livro[3]. Terminei o capitulo 9 do livro[1] que fala sobre criacao de metodos. iniciado o estudo no capitulo 10 sobre objetos, como acessar, criar e manipula-los.
+>27/07/2020 - Estudei mais um pouco sobre P5.js, aprendi mapping e random. continuo minha leitura do livro[3]. Terminei o capitulo 9 do livro[1] que fala sobre criacao de metodos. iniciado o estudo no capitulo 10 sobre objetos, como acessar, criar e manipula-los. Também aproveitei e alterei o nome do arquivos que estava suando para os estudos, agora o titulo dele é getProgrammingWithJS.js para melhor representar o livro que está sendo usado.
 
 

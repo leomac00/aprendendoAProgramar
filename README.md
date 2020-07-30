@@ -66,4 +66,4 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 
 >27/07/2020 - Estudei mais um pouco sobre P5.js, aprendi mapping e random. continuo minha leitura do livro[3]. Terminei o capitulo 9 do livro[1] que fala sobre criacao de metodos. iniciado o estudo no capitulo 10 sobre objetos, como acessar, criar e manipula-los. Também aproveitei e alterei o nome do arquivos que estava suando para os estudos, agora o titulo dele é getProgrammingWithJS.js para melhor representar o livro que está sendo usado.
 
-
+>29/07/2020 - Estudei mais sobre P5.js, aprendi sobre if else em js. li amis um pouco sobre OOP no livro[3].

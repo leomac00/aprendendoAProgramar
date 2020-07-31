@@ -1,3 +1,82 @@
+
+
+//----------
+
+// //Desenha uma malha de Bolinhas
+// var offset = 0;
+// function setup() {
+//   createCanvas(600, 400);
+// }
+
+// function draw() {
+//   background(0);
+//   noStroke();
+
+//   // desenha uma malha
+//   for (var x = 0; x <= width; x += 50) {
+//     for (var y = 0; y <= height; y += 50) {
+//       fill(random(127), 0, random(127));
+//       ellipse(x + offset, y, 25, 25);
+//     }
+//   }      
+// }
+
+//----------
+
+// //Loops for e while
+// function setup() {
+//     createCanvas(600, 400);
+//   }
+  
+//   function draw() {
+//     background(0);
+//     var x = 0;
+  
+//     //desenha bolinhas de golfe na horizontal
+//     while (x <= 600) {
+//       fill(255);
+//       ellipse(x, height / 2, 50, 50);
+//       x += 50;
+//     }
+  
+//     //desenha bolinhas de golfe na vertical
+//     for (var y = 0; y <= height; y += 50) {
+//       fill(255, 255, 0);
+//       ellipse(width / 2, y, 50, 50);
+//       y += 50;
+//     }
+//   }
+
+//----------
+
+// // Interruptor de luz
+// var lightSwitch = false
+
+// function setup() {
+//   createCanvas(400, 400);
+// }
+
+// function draw() {
+
+//   if (lightSwitch) {
+//     background(255);
+//   } else {
+//     background(0);
+//   }
+
+//   rectMode(CENTER);
+//   noFill();
+//   strokeWeight(4);
+//   stroke(127);
+//     rect(width / 2, height / 2, 100, 100)
+// }
+
+// function mousePressed() {
+//   if (mouseX < 250 && mouseX > 150 && mouseY < 250 && mouseY > 150) {
+//      lightSwitch = !lightSwitch
+//   }
+// }
+
 //----------
 
 // //AND e OR

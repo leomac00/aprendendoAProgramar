@@ -70,3 +70,4 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 
 >30/07/2020 - Estudei mais Python, este proximo capitulo do livro fala sobre métodos de strings como o join() e o split(). Já possuia alguma experiencia com eles pois tem bastante desafios que os usam no codewars entao estou indo um pouco mais rapido nele.
 
+>31/07/2020 - Estudei mais P5.js, terminei as video aulas de loops em JS, entendi melhor como funcionavam nested loops pois já havia tido um contato fazendo os desafios do codewars mas agora ficou mais claro, os scripts já foram enviados ao branch de JS

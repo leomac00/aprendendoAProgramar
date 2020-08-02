@@ -1,4 +1,27 @@
+#pyperclip demo
+import pyperclip
+pyperclip.copy('Olá Mundo!') #o que estiver como argumento será o texto enviado para a area de copia do usuario
+spam = pyperclip.paste() #a variavel 'spam' recebe o valor que está na area de copia do usuario
+print(spam)
 
+###################################
+
+# #Remove caracteres
+# spam = '++++Olá mundo!++++'
+# print(spam.strip('+'))
+# print(spam.lstrip('+'))
+# print(spam.rstrip('+'))
+#
+# spam = 'sabaooooooooooooo'
+# print(spam.strip('o'))
+
+##################################
+
+# #Exemplos de justificacao de texto
+# spam = 'Bolinha de Golfe'
+# print(spam.ljust(25,'='))
+# print(spam.rjust(25,'*'))
+# print(spam.center(25,'+'))
 
 ##################################
 

@@ -73,3 +73,5 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >31/07/2020 - Estudei mais P5.js, terminei as video aulas de loops em JS, entendi melhor como funcionavam nested loops pois já havia tido um contato fazendo os desafios do codewars mas agora ficou mais claro, os scripts já foram enviados ao branch de JS. Aproveitei e dei pload nos resumos dos livros/cursos que estou utilizando nos respectivos branches, sao como meus cadernos de anotacoes. lá contem tudo que já estuddei.
 
 >02/08/2020 - terminei o capitulo sobre manipulacao de strings do livro[2], falta apenas fazer o projeto e as questoes do capitulo.
+
+>03/08/2020 - Terminei as tarefas que tinham ficado de ontem (projeto e questoes) de python.

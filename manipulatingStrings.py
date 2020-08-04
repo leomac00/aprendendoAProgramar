@@ -1,8 +1,11 @@
-#pyperclip demo
-import pyperclip
-pyperclip.copy('Olá Mundo!') #o que estiver como argumento será o texto enviado para a area de copia do usuario
-spam = pyperclip.paste() #a variavel 'spam' recebe o valor que está na area de copia do usuario
-print(spam)
+
+
+#####################################
+# #pyperclip demo
+# import pyperclip
+# pyperclip.copy('Olá Mundo!') #o que estiver como argumento será o texto enviado para a area de copia do usuario
+# spam = pyperclip.paste() #a variavel 'spam' recebe o valor que está na area de copia do usuario
+# print(spam)
 
 ###################################
 

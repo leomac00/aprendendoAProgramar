@@ -1,7 +1,105 @@
-var objeto = {};
-objeto["minas gerais"] = "Deu certo!";
-objeto["espaço 1"] = "Também deu certo!";
-console.log(objeto);
+
+//-----------------------------------------------------------
+
+// //Exemplo de criacao de saidas para lugares
+// var Place = function (title, description) {
+//     this.title = title;
+//     this.exits = {};
+
+//     this.addExit = function (direction, exit) {
+//         this.exits[direction] = exit;
+//     };
+
+//     this.showExits = function () {  
+//         console.log("Exits from " + this.title + ":");
+  
+//         Object.keys(this.exits).forEach(function (key) {
+//             console.log(key);
+//         });
+//     };
+// };
+
+// var library = new Place("The Old Library");
+// var kitchen = new Place("The Kitchen");
+// var garden = new Place("The Kitchen Garden");
+
+// kitchen.addExit("south", library);
+// kitchen.addExit("west", garden);
+// library.addExit("north",kitchen);
+// garden.addExit("east",kitchen);
+
+// kitchen.showExits();
+
+//-----------------------------------------------------------
+
+// //Criando e Acessando lugares do jogo com bracket notation
+// var Place = function (title) {
+//     this.title = title;  
+// };
+
+// var kitchen = new Place("The Kitchen");
+// var dungeon = new Place("The Dungeon");
+// var hall = new Place("The entrance hall");
+// var basement = new Place("The Basement");
+
+// var exits = {};
+
+// exits["north"] = kitchen;
+// exits["the trapdoor"] = dungeon;
+// exits["south"] = hall;
+// exits["west"] = basement;
+
+// var keys = Object.keys(exits);
+
+// keys.forEach(function (key) {
+//     console.log(key + " goes to " + exits[key].title);
+// });
+
+//-----------------------------------------------------------
+
+// //Contador de letras
+// var letters = {};
+// var tweetText = tweets.join(""); //Or just use " " o separate between words.
+// tweetText = tweetText..toLowerCase();
+// var tweetLetters = tweetText.split(""); //Or just use " " o separate between words.
+  
+// tweetLetters.forEach(function (letter) { //First we assign every letter/word the value 0
+//     letters[letter] = 0;
+// });
+
+// tweetLetters.forEach(function (letter) { //Then when we find it again we add 1 to its property
+//     letters[letter] += 1;
+// });
+
+// console.log(letters);
+
+//-----------------------------------------------------------
+
+// // Como acessar valores de objetos 
+// var ages = {
+//     "Kandra Smith" : 56,
+//     "Dax Aniaku"   : 21,
+//     "Blinky"       : 36,
+//     "Leo"          : 25,
+//     };
+
+// var keys = Object.keys(ages);
+
+// ages["Nicolly"] = 24;
+// ages.gato = 11;
+
+// keys.forEach(function (key) {
+//   console.log(key + ", " + ages[key] + ", Name Lenght: " + key.length);
+//   console.log("----------");
+// });
+
+//-----------------------------------------------------------
+
+// //Demonstraçao de keys sendo strings
+// var objeto = {};
+// objeto["minas gerais"] = "Deu certo!";
+// objeto["espaço 1"] = "Também deu certo!";
+// console.log(objeto);
 
 //-----------------------------------------------------------
 

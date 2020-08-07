@@ -77,3 +77,6 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >03/08/2020 - Terminei as tarefas que tinham ficado de ontem (projeto e questoes) de python.
 
 >06/08/2020 - após alguns dias ocupados voltei a estudar JS, continuei o capitulo sobre funcoes criadoras no livro[0]. está ficando um pouco complicado manter duas linguagens ao mesmo tempo entao talvez eu comece a focar mais em JS pela versatilidade e pelo fato de existir o P5.js que possibilita fazer algumas coisas graficas bem interessantes. Mesmo nao estando estudnado o livro[0] com afinco esses ultimos dias continuo lendo o livro[3] normalmente, percebi uma melhroa na performance na hora de nomear minhas variaveis e funcoes e está um pouco mais claro como lidar com elas.
+
+>07/08/2020 - continuei estudando JavScript, iniciei o curso de introducao a JavaScript na DIigital Innovation One apenas para que em seguida eu possa fazer o de JavaSCript ES6, nao aprendi nada de novo com esse introdutorio pois todos os assuntos já haviam sido cobertos no livro[0], porem foi bom para refrescar a memoria.
+

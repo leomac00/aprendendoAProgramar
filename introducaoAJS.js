@@ -1,5 +1,32 @@
 //Funções
 
+//Cria botao de agradecimento ao clicar
+function botao(){
+//    alert("Obrigado por clicar!");
+//    console.log(document.getElementById("agradecimento"))
+document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!"
+}
+
+//Redireciona o usuario para uma pagina qunado o botao é clicado
+function redirecionar(){
+window.open("https://github.com/leomac00/learningToCode")
+}
+
+//Troca o texto de um elemento X quando o mouse é passado em cima (temq ue definir com o 'onmouseover' na pagina HTML)
+function trocaTexto(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse aqui!";
+}
+//Volta o texto do elemento X para seu texto original.
+function voltaTexto(elemento){
+    elemento.innerHTML = "Passe o mouse aqui.";
+}
+//Faz algo quando um valor no menu dropdown é selecinado.
+function change(elemento){
+    console.log(elemento.value)
+}
+
+
+
 //----------
 
 // //Trabalhando com data

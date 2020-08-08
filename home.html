@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo a programar.</title>
+</head>
+<script src="./introducaoAJS.js"></script>
+<script></script>
+<body>
+    <h1>Olá Mundo!</h1>
+    </br>
+    Os codigos são atualizados todos os dias depois dos estudos no meu repositório do GitHub. ( https://github.com/leomac00/learningToCode )
+    </br>
+    <!-- Cria o botao que redireciona para o GitHUB, funcao: 'redirecionar()' -->
+    <button type="button" onclick="redirecionar()">GitHub</button>
+    </br>
+    </br>
+    <!-- Cria o botao que agradece -->
+    <button type="button" onclick="botao()">->Teste<-</button> 
+    <h3 id="agradecimento"></h3>
+    </br>
+    <!-- cria os textos que a funcao 'trocaTExto()' e 'voltaTExto()' atuam  -->
+    <h3 id="mouseMove" onmouseover="trocaTexto(this)" onmouseout="voltaTexto(this)">Passe o mouse aqui.</h3>
+    <h3 id="mouseMove2" onmouseover="trocaTexto(this)" onmouseout="voltaTexto(this)">Passe o mouse aqui.</h3>
+    <!-- Cria o menu dropdown que a funcao 'change()' age -->
+    <select onchange="change(this)">
+        <option value="1">Valor 1</option>   
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+</body>
+</html>

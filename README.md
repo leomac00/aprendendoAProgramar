@@ -80,3 +80,4 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 
 >07/08/2020 - continuei estudando JavScript, iniciei o curso de introducao a JavaScript na DIigital Innovation One apenas para que em seguida eu possa fazer o de JavaSCript ES6, nao aprendi nada de novo com esse introdutorio pois todos os assuntos já haviam sido cobertos no livro[0], porem foi bom para refrescar a memoria. Após eu terminar o livro[0] acho que vou estudar novamente HTML e entao CSS para aprimorar o que posso fazer em JS.
 
+>08/08/2020 - terminei o curso de introducao a JS, consegui aprender varias coisas sobre HTML mas acredito que ainda falta mais aprofundamento, foi possivel entender como scripts alteram elementos HTML e como executar e escrever essas interacoes. Foi dado upload do arquivo da pagina HTML utilizada para os codigos, assim como o arquivo em JS uutilizado para criar os scripts.

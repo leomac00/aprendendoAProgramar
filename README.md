@@ -85,3 +85,5 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >10/08/2020 - continuo minha saga em JavaScript e hoje foquei em estudar P5.js, aprendi a mexer melhor com arrays, aprendi sobre classes e como separar os arquivos necessarios para rodar um codigo. A partir disso consegui fazer dois projetos que tinha visto no canal coding train sem precisar olhar como fazia (estou bem orgulhoso, o bouncyBubbles.rar e o purpleRain.rar que já foram upados no repositório); agora estou conseguindo organizar melhor meu codigo, compreender o que preciso fazer, separar as tarefas em funcoes para entao escreve-las. está ficando mais facil.
 
 >11/08/2020 - Foquei em fazer alguns katas no codewars e trabalhei em um projeto que faz uma bolha parece que está com algum glitch em p5. arvuiso foram upados no repositorio
+
+>12/08/2020 - li mais sobre variaveis e escopos, terminei a parte 1 do livro[0].

@@ -1,5 +1,32 @@
 
-//-----------------------------------------------------------
+
+//----------
+
+// //Contador seguro
+// var getCounter = function () {
+//     var counter = 0; //Agora a variavel count está dentro de uma funcao e nao pode ser acessada no escopo global, nao podendo ser alterada pelo usuario
+    
+//     var countUpBy1 =  function () {
+//       counter = counter + 1;
+//       return counter;
+//     };
+    
+//     return countUpBy1;
+//   };
+  
+//   var count = getCounter();
+
+//----------
+
+// // Contador nao seguro
+// var counter = 0; //Sendo a variavel global, o usuario pode acessa-la e altera-la
+
+// var count = function () {
+//   counter = counter + 1;
+//   return counter;
+// };
+
+//----------
 
 // //Exemplo de criacao de saidas para lugares
 // var Place = function (title, description) {
@@ -30,7 +57,7 @@
 
 // kitchen.showExits();
 
-//-----------------------------------------------------------
+//----------
 
 // //Criando e Acessando lugares do jogo com bracket notation
 // var Place = function (title) {
@@ -55,7 +82,7 @@
 //     console.log(key + " goes to " + exits[key].title);
 // });
 
-//-----------------------------------------------------------
+//----------
 
 // //Contador de letras
 // var letters = {};
@@ -73,7 +100,7 @@
 
 // console.log(letters);
 
-//-----------------------------------------------------------
+//----------
 
 // // Como acessar valores de objetos 
 // var ages = {
@@ -93,7 +120,7 @@
 //   console.log("----------");
 // });
 
-//-----------------------------------------------------------
+//----------
 
 // //Demonstraçao de keys sendo strings
 // var objeto = {};
@@ -101,7 +128,7 @@
 // objeto["espaço 1"] = "Também deu certo!";
 // console.log(objeto);
 
-//-----------------------------------------------------------
+//----------
 
 // var spacer = {
 //   blank: function () {
@@ -285,7 +312,7 @@
 // player1.showInfo("=");
 
 
-// //-----------------------------------------------------------
+// //----------
 
 // //Criador de lugares para o jogo, exemplo do livro utilizando funcoes já criadas para formatacao de textos.
 // // The spacer namespace
@@ -416,7 +443,7 @@
   
 //   library.showInfo();
 
-//-----------------------------------------------------------
+//----------
 
 // //Criador de lugares para o jogo, exemplo próprio
 
@@ -451,7 +478,7 @@
 
 // salao.informacoes();
 
-//-----------------------------------------------------------
+//----------
 
 // // Quiz()
 // var Quiz = function (pergunta, resposta) {
@@ -479,12 +506,12 @@
 
 // questao1.mostrarQuiz();
 
-//-----------------------------------------------------------
+//----------
 
 // var item1 = new Planet("Jupiter", 5, "Gas Giant");
 // console.log(item1 instanceof Planet);
 
-//-----------------------------------------------------------
+//----------
 
 // //Mais um exemplo de como modificar e incluir parametros em objetos:
 // var Item = function(name, quantity){
@@ -502,7 +529,7 @@
 // var itemTeste = new Item('Garrafas de água',5); 
 // itemTeste.showItem(); 
 
-//-----------------------------------------------------------
+//----------
 
 // // Criando um novo objeto utilizando uma funcao com 'new' e 'this'
 // var Item = function(name, quantity){
@@ -517,7 +544,7 @@
 // var itemTeste = new Item('Garrafas de água',5); //Usa-se o new para que o JS entenda que estamos querendo criar um objeto vazio novo para a variavel em questao.
 // itemTeste.showItem(); // Exemplo de acesso da funcao 'showItem()' criada pela funcao 'Item()'
 
-//-----------------------------------------------------------
+//----------
 
 // // Ideia geral de como fazer uma funcao que cria objetos:
 // var buildPlanet = function (name, position, type) {
@@ -528,7 +555,7 @@
 //     return planet; // You return the object
 //     };
 
-//-----------------------------------------------------------
+//----------
 
 // // métodos em objetos:
 // var buildPlanet = function (name, position, type) {
@@ -556,7 +583,7 @@
 
 // planet1.showPlanet();
 
-//-----------------------------------------------------------
+//----------
 
 // var spacer = {
 //     blank: function () {
@@ -670,7 +697,7 @@
 //   showPlayerInfo(player1, "*"); 
   
 
-//-----------------------------------------------------------
+//----------
 
 // var displayQuestion = function (questionArray){
 //     var options = [ "A", "B", "C", "D", "E" ];
@@ -706,7 +733,7 @@
 // var questions = [question1, question2];
 // displayQuestion(questions);
 
-//-----------------------------------------------------------
+//----------
 
 // [ "Dax", "Jahver", "Kandra" ].forEach(function (item, index, wholeArray) {
 //     console.log("Item: " + item);
@@ -714,7 +741,7 @@
 //     console.log("Array: " + wholeArray);
 //   });
 
-//-----------------------------------------------------------
+//----------
 
 // var getTotalBill = function (itemList) {
 // 	var total = 0;
@@ -735,7 +762,7 @@
 
 // console.log('Soma dos custos: ' + getTotalBill(items));
 
-//-----------------------------------------------------------
+//----------
 // // contando o total de letra usando o forEach
 // var items;
 // var showInfo;
@@ -755,7 +782,7 @@
 // items.forEach(showInfo);
 // console.log(total);
 
-//-----------------------------------------------------------
+//----------
 
 // // Exemplo de ForEach()
 // var items;
@@ -782,7 +809,7 @@
 
 // showInfo(items)
 
-//-----------------------------------------------------------
+//----------
 
 // // Exemplo de métodos em arrays
 // var items = [];
@@ -802,7 +829,7 @@
 // console.log("Poping " + removed + " and adding " + items[0]);
 // console.log("Mostrando o restante da lista usando o 'join': " + items.join(" and "));
 
-//-----------------------------------------------------------
+//----------
 
 // var getVisitorReport = function (visitorArray, dayInWeek) {
 //     var days = ["Segunda-Feira",
@@ -827,7 +854,7 @@
 
 // console.log(report);
 
-//-----------------------------------------------------------
+//----------
 
 // // Organização: este codigo organiza lugares para visitar utilizando arrays
 // var lugar1 = {nome: "Belo Horizonte", estado: "Minas Gerais"};
@@ -840,7 +867,7 @@
 // console.log(esseAno);
 // console.log(proximoAno);
 
-//-----------------------------------------------------------
+//----------
 
 // // exemplo de array (listas ordenadas)
 // var array1 = ["gato","cachorro","periquito"];
@@ -848,7 +875,7 @@
 // console.log(array1);
 // console.log(array2)
 
-//-----------------------------------------------------------
+//----------
 
 // var spacer = {
 //     blank: function () {
@@ -941,7 +968,7 @@
 //   console.log(getPlayerInfo(player1, "="));
 //   console.log(getPlayerInfo(player2, "+"));
 
-//-----------------------------------------------------------
+//----------
 
 // var spacer = {
 //     blank: function () {
@@ -987,7 +1014,7 @@
 //   console.log(spacer.box("Isso só funciona para str de ate 40", "="));
 //   console.log(spacer.box("Mars", "*"));
 
-//-----------------------------------------------------------
+//----------
 
 // var planet = "Jupiter";
 // var bigPlanet = planet.toUpperCase();
@@ -1003,7 +1030,7 @@
 // getSmall("SUPIMPA");
 
 
-//-----------------------------------------------------------
+//----------
 
 // var line = function (lineLength) {
 //     var line = "========================================";
@@ -1034,7 +1061,7 @@
 //   console.log(spaceLine(50) + "home");
 //   console.log(emptyBox(60));
 
-//-----------------------------------------------------------
+//----------
 
 // var espaco;
 
@@ -1055,7 +1082,7 @@
 // espaco.blank();
 // console.log("Linha 2");
 
-//-----------------------------------------------------------
+//----------
 
 // var point1;
 // var point2;
@@ -1108,7 +1135,7 @@
 // point2 = rotate(point2);
 // showPoint(point2);
 
-//-----------------------------------------------------------
+//----------
 
 // var planet1 = { name: "Jupiter", radius: 69911 };
 
@@ -1129,7 +1156,7 @@
 // calculateSizes(planet1);
 // displaySizes(planet1);
 
-//-----------------------------------------------------------
+//----------
 
 // var planet1;
 // var getPlanetInfo;
@@ -1157,7 +1184,7 @@
 // console.log(getPlanetInfo(planet1));
 // console.log(getPlanetInfo(planet2));
 
-//-----------------------------------------------------------
+//----------
 
 // var player = {
 //     name : ["Leo","Nicolly"],
@@ -1195,7 +1222,7 @@
 // console.log(playerInfo(player.name[0], player.place[0], player.HP[0], player.items[0]));
 // console.log(playerInfo(player.name[1], player.place[1], player.HP[1], player.items[1]));
 
-//-----------------------------------------------------------
+//----------
 
 // var player1 = {
 //     name : "Leo",
@@ -1239,7 +1266,7 @@
 // console.log(playerInfo(player1.name, player1.place, player1.HP, player1.items));
 // console.log(playerInfo(player2.name, player2.place, player2.HP, player2.items));
 
-//-----------------------------------------------------------
+//----------
 
 // var add;
 // var sum;
@@ -1252,14 +1279,14 @@
 // sum = add(23,50,34);
 // console.log(sum)
 
-//-----------------------------------------------------------
+//----------
 
 // var getMyMessage;
 // getMyMessage = function (message){
 //     return message
 // }
 
-//-----------------------------------------------------------
+//----------
 
 // var showPlayerName = function (playerName) {
 //     console.log("* " + playerName + " *");
@@ -1309,7 +1336,7 @@
 // showPlayerInfo(player1.name, player1.place, player1.health);
 // showPlayerInfo(player2.name, player2.place, player2.health);
 
-//-----------------------------------------------------------
+//----------
 
 // sqrt = function (numberToSqrt) {
 //     console.log("SqRt of " + numberToSqrt + " is " + Math.sqrt(numberToSqrt));
@@ -1336,7 +1363,7 @@
 // square(-2);
 // square(1111);
 
-//-----------------------------------------------------------
+//----------
 
 // var showMessage;
 // var myMessage = "oioioi!";
@@ -1352,7 +1379,7 @@
 // showMessage("Hello to Jason Isaacs and Stephen Fry");
 // showMessage(myMessage);
 
-//-----------------------------------------------------------
+//----------
 
 // var showMessage;
 // message = "oi meu nome é bruce!";
@@ -1365,7 +1392,7 @@
 // showMessage("testando 1, 2...", "Aparentemente funcionou", "Sou um genio da computacao");
 // console.log(message);
 
-//-----------------------------------------------------------
+//----------
 
 // var filme1;
 // var filme2;
@@ -1403,7 +1430,7 @@
 // filme = filme3;
 // mostraDadosDoFilme();
 
-//-----------------------------------------------------------
+//----------
 
 // var sale1;
 // var sale2;
@@ -1437,7 +1464,7 @@
 // sale = sale3;
 // calculateAndDisplay();
 
-//-----------------------------------------------------------
+//----------
 
 // function total (a, b) {
 //     resultado = a + b;
@@ -1446,7 +1473,7 @@
 // total(10, 10);
 // console.log (resultado);
 
-//-----------------------------------------------------------
+//----------
 
 // var filmes;
 // filmes = {
@@ -1463,7 +1490,7 @@
 // mostraDados(1);
 // mostraDados(2);
 
-//-----------------------------------------------------------
+//----------
 
 // var filmes;
 // var indice;
@@ -1485,7 +1512,7 @@
 // indice = 2;
 // mostraDados();
 
-//-----------------------------------------------------------
+//----------
 
 // var filmes;
 // var indice;
@@ -1501,7 +1528,7 @@
 // indice = 2;
 // console.log("Nome: " + filmes.nome[indice] + ". Diretor: "+ filmes.diretor[indice]   + ". Nota: " + filmes.nota[indice]);
 
-//-----------------------------------------------------------
+//----------
 
 // var jogador;
 // jogador = {

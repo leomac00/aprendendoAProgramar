@@ -87,3 +87,5 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >11/08/2020 - Foquei em fazer alguns katas no codewars e trabalhei em um projeto que faz uma bolha parece que está com algum glitch em p5. arvuiso foram upados no repositorio
 
 >12/08/2020 - li mais sobre variaveis e escopos, terminei a parte 1 do livro[0].
+
+>13/08/2020 - terminei algumas video aulas do coding train sobre p5.js, aprendi sobre como carregar iamgens, terminei a parte de arrays, aprendi osbre colisoes. Tambem continuo lendo o livro[3], até o momento tem me ajudado nomear melhor as coisas e evitar comentarios desnecessarios no codigo.

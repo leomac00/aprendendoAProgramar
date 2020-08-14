@@ -89,3 +89,5 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >12/08/2020 - li mais sobre variaveis e escopos, terminei a parte 1 do livro[0].
 
 >13/08/2020 - terminei algumas video aulas do coding train sobre p5.js, aprendi sobre como carregar iamgens, terminei a parte de arrays, aprendi osbre colisoes. Tambem continuo lendo o livro[3], até o momento tem me ajudado nomear melhor as coisas e evitar comentarios desnecessarios no codigo. Temrinei tambem os videos sobre P5.js do canal coding train. Curso terminado
+
+>14/08/2020 - Já que terminei o curso de P5.js e já possuo um conhecimento maior sobre JS, passei a fazer mais desafios no codeWars agora utilizando JS inves de python, consegui chegar ao rank 5kyu com JS. Iniciei um curso na DIO sobre Git e comecei a estudar sobre HTML para poder melhor trabalhar com JS.

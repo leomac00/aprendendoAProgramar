@@ -2,6 +2,185 @@
 
 //----------
 
+// //segunraça de dados - parametros dentro de funcoes
+// var Person = function(name, age, pin = 123456) {
+//     this.name = name;
+//     this.age = age;
+//     var pinNumber = pin;
+//     this.showPin = function() {
+//       return 'pin: ' + pinNumber;
+//     }
+//   }
+  
+//   var leo = new Person('leo', 25);
+
+//----------
+
+// // The Player constructor - user info hidden
+
+// var Player = function (name, health) {
+//     var newLine = spacer.newLine();
+//     var items = [];
+//     var place = null;
+
+
+//     var getNameInfo = function () {
+//         return name;
+//     };
+
+//     var getHealthInfo = function () {
+//         return "(" + health + ")";
+//     };
+
+//     var getItemsInfo = function () {
+//         var itemsString = "Items:" + newLine;
+       
+//         items.forEach(function (item, i) {
+//             itemsString += "   - " + item + newLine;
+//         });
+
+//         return itemsString;
+//     };
+  
+//     var getTitleInfo = function () {
+//         return getNameInfo() + " " + getHealthInfo();
+//     };
+
+//     var getInfo = function () {
+//         var info = spacer.box(getTitleInfo(), 40, "*");
+//         info += "  " + getItemsInfo();
+//         info += spacer.line(40, "*");
+//         info += newLine;
+
+//         return info;
+//     }; 
+
+
+//     this.addItem = function (item) {
+//         items.push(item);
+//     };
+  
+//     this.setPlace = function (destination) {
+//         place = destination;
+//     };
+    
+//     this.getPlace = function () {
+//         return place;
+//     };
+
+//     this.showInfo = function (character) {
+//         console.log(getInfo(character));
+//     };
+// };
+
+
+//----------
+
+// // The Player constructor - user can manipulate player info
+
+// var Player = function (name, health) {
+//     var newLine = spacer.newLine();
+    
+//     this.name = name;
+//     this.health = health;
+//     this.items = [];
+//     this.place = null;
+  
+//     this.addItem = function (item) {
+//       this.items.push(item);
+//     };
+  
+//     this.getNameInfo = function () {
+//       return this.name;
+//     };
+  
+//     this.getHealthInfo = function () {
+//       return this.name + " has health " + this.health;
+//     };
+  
+//     this.getPlaceInfo = function () {
+//       return this.name + " is in " + this.place.title;
+//     };
+  
+//     this.getItemsInfo = function () {
+//       var itemsString = "Items:" + newLine;
+         
+//       this.items.forEach(function (item, i) {
+//         itemsString += "   - " + item + newLine;
+//       });
+  
+//       return itemsString;
+//     };
+  
+//     this.getInfo = function (character) {  
+//       var place = this.getPlaceInfo();
+//       var health = this.getHealthInfo();
+//       var longest = Math.max(place.length, health.length) + 4;
+  
+//       var info = spacer.box(this.getNameInfo(), longest, character);
+//       info += spacer.wrap(place, longest, character);
+//       info += newLine + spacer.wrap(health, longest, character);
+//       info += newLine + spacer.line(longest, character);
+  
+//       info += newLine;
+//       info += "  " + this.getItemsInfo();
+//       info += newLine;
+//       info += spacer.line(longest, character);
+//       info += newLine;
+  
+//       return info;
+//     }; 
+  
+//     this.showInfo = function (character) {
+//       console.log(this.getInfo(character));
+//     };
+//   };
+  
+
+//----------
+
+// //Escondendo propriedades em escopos locais
+// var getQuiz = function () {
+//     var qIndex = 0;
+//     var questions = [
+//         {
+//             question: "What is the highest mountain in the world?",
+//             answer: "Everest"
+//         },
+//         {
+//             question: "What is the highest mountain in Scotland?",
+//             answer: "Ben Nevis"
+//         },
+//         {
+//             question: "How many munros are in Scotland?",
+//             answer: "284"
+//         }
+//     ];
+
+//     return {
+//         quizMe : function () {
+//             return questions[qIndex].question;
+//         },
+
+//         showMe : function () {
+//             return questions[qIndex].answer;
+//         },
+
+//         next : function () {
+//             qIndex = qIndex + 1;
+//             return "Ok";
+//         },
+        
+//         showIndex : function () {
+//             console.log("You're in question number: " + qIndex)
+//     }
+//     };
+// };
+
+// var quiz = getQuiz();
+
+//----------
+
 // //Contador seguro
 // var getCounter = function () {
 //     var counter = 0; //Agora a variavel count está dentro de uma funcao e nao pode ser acessada no escopo global, nao podendo ser alterada pelo usuario

@@ -1,4 +1,157 @@
+// //For ... of
+//   for (let item of obj) {
+//     item.display();
+//     item.move();
+//   };
 
+//----------
+
+// //Classes: exemplo setando o parametro 'size' das bolhas
+// function setup() {
+//     createCanvas(700, 500);
+  
+//     bubbles = {}
+//     for (var i = 0; i < 50; i++) {
+//       bubbles[i] = new Bubble(15); //O argumento passado aqui sera o argumento utilizado pelo constructor()
+//     }
+//   }
+//   .
+//   .
+//   .
+//   class Bubble {
+//     constructor(tempSize) { 
+//       var topSpeed = 10;
+//       var minSpeed = 0.1;
+//       this.x = random(width);
+//       this.y = random(height);
+//       this.xspeed = random(minSpeed, topSpeed);
+//       this.yspeed = random(minSpeed, topSpeed);
+//       this.size = tempSize;
+//       this.r = random(255);
+//       this.g = random(255);
+//       this.b = random(255);
+//         }
+//   }
+
+//----------
+
+// //Classes:
+// function setup() {
+//     createCanvas(700, 500);
+  
+//     bubbles = {}
+//     for (var i = 0; i < 50; i++) { // Cria-se 50 bolhas
+//       bubbles[i] = new Bubble;
+//     }
+//   }
+  
+//   function draw() {
+//     background(0);
+//     for (var i = 0; i < 50; i++) { // excuta a funcao move() e show() para cada uma das 50 bolhas criadas
+//       bubbles[i].move();
+//       bubbles[i].show()
+//     }
+  
+  
+//   }
+  
+//   class Bubble {
+//     constructor() { //Inicializa os parametros que o objeto pertencente a essa calsse terao
+//       var topSpeed = 10;
+//       var minSpeed = 0.1;
+//       this.x = random(width);
+//       this.y = random(height);
+//       this.xspeed = random(minSpeed, topSpeed);
+//       this.yspeed = random(minSpeed, topSpeed);
+//       this.size = random(10, 25);
+//       this.r = random(255);
+//       this.g = random(255);
+//       this.b = random(255);
+//         }
+  
+//     move() { // funcao que a classe Bubble terá 
+//       this.y += this.yspeed;
+//       this.x += this.xspeed;
+//       if (this.x > width || this.x < 0) {
+//         this.xspeed = -this.xspeed
+//       }
+//       if (this.y > height || this.y < 0) {
+//         this.yspeed = -this.yspeed
+//       }
+//     }
+  
+//     show() {
+//       noStroke();
+//       fill(this.r, this.b, this.b);
+//       ellipse(this.x, this.y, this.size, this.size);
+//     }
+//   }
+//----------
+
+// // Desenha um Pirulito
+// function setup() {
+//     createCanvas(400, 400);
+//   }
+  
+//   function draw() {
+//     background(0);
+//     lollipop(width/2, height/2, 100);
+//     lollipop(50,50,50);
+//   }
+  
+//   function lollipop(x, y, headSize) {
+//     fill(0, 200, 255);
+//     rect(x - 10, y , 20, 150);
+    
+//     fill(250, 0, 200);
+//     ellipse(x, y, headSize, headSize);
+//   }
+
+//----------  
+
+// //Bola que quica utilizando funcoes
+// var ball = {
+//     x: 50,
+//     y: 50,
+//     xspeed: 3,
+//     yspeed: -4
+//   }
+  
+//   function setup() {
+//     createCanvas(400, 400);
+//   }
+  
+//   function draw() {
+//     background(0);
+//     move(ball);
+//     bounce(ball);
+//     display(ball);
+    
+//   }
+  
+//   function move(ball) {
+//     ball.x += ball.xspeed;
+//     ball.y += ball.yspeed;
+//   }
+  
+  
+//   function bounce(ball) {
+//     if (ball.x > width || ball.x < 0) {
+//       ball.xspeed = -ball.xspeed;
+//     }
+  
+//     if (ball.y > height || ball.y < 0) {
+//       ball.yspeed = -ball.yspeed;
+//     }
+//   }
+  
+  
+//   function display(ball) {
+//     stroke(255);
+//     strokeWeight(4);
+//     noFill();
+//     ellipse(ball.x, ball.y, 24, 24);
+//   }
 
 //----------
 

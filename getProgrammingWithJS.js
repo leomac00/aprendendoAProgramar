@@ -2,6 +2,127 @@
 
 //----------
 
+// //no cheating quiz
+// var getQuiz = function() {
+//     var score = 0,
+//       qIndex = 0,
+//       inPlay = true,
+//       questions,
+//       next,
+//       getQuestion,
+//       checkAnswer,
+//       getHint,
+//       submit;
+  
+//     questions = [{
+//         question: "What is the highest mountain in the world?",
+//         answer: "Everest",
+//         hint: "___rest"
+//       },
+//       {
+//         question: "What is the highest mountain in Scotland?",
+//         answer: "Ben Nevis",
+//         hint: "_en __vis"
+//       }
+//     ];
+  
+//     next = function() {
+//       qIndex = qIndex + 1;
+  
+//       if (qIndex >= questions.length) {
+//         inPlay = false;
+//         console.log("You have finished the quiz.");
+//       }
+//     };
+  
+//     getQuestion = function() {
+//       if (inPlay) {
+//         return questions[qIndex].question;
+//       } else {
+//         return "You have finished the quiz.";
+//       }
+//     };
+  
+//     checkAnswer = function(userAnswer) {
+//       if (userAnswer === questions[qIndex].answer) {
+//         console.log("Correct!");
+//         score = score + 1;
+//       } else {
+//         console.log("No, the answer is " + questions[qIndex].answer);
+//       }
+//     };
+  
+//     getHint = function() {
+//       return console.log(questions[qIndex].hint);
+//     };
+  
+//     submit = function(userAnswer) {
+//       var message = "You have finished the quiz.";
+  
+//       if (inPlay) {
+//         checkAnswer(userAnswer);
+//         next();
+//         message = "Your score is " + score + " out of " + qIndex;
+//       }
+  
+//       return message;
+//     };
+  
+//     return {
+//       quizMe: getQuestion,
+//       submit: submit,
+//       helpMe: getHint
+//     };
+//   };
+  
+//   var quiz = getQuiz()
+
+//----------
+
+// //Adivinhe numero - com feedback
+// var guessTheNumber = function() {
+//     let rightNumber = Math.floor(Math.random() * 10);
+//   //   console.log(rightNumber);
+//     return function(guessedNumber) {
+//       if (guessedNumber === rightNumber) {
+//         console.log('You guessed correctly!');
+//       } else if (guessedNumber > rightNumber) {
+//         console.log('Wrong. Number too high.');
+//       } else if (guessedNumber < rightNumber) {
+//         console.log('Wrong. Number too low.');
+//       }
+//     };
+//   };
+//   var guess = guessTheNumber();
+
+//----------
+
+// //Adivinhe numero
+// var guessTheNumber = function() {
+//     let rightNumber = Math.floor(Math.random() * 10);
+//   //   console.log(rightNumber);
+//     return function(guessedNumber) {
+//       if (guessedNumber === rightNumber) {
+//         console.log('You guessed correctly!');
+//       } else {
+//         console.log('Wrong number, try again.');
+//       }
+//     };
+//   };
+//   var guess = guessTheNumber();
+
+//----------
+
+// //Condicoes
+// let hello = 'Hello'
+// if (hello === 'Hello'){
+//     console.log('Hello World!')
+// } else {
+//     console.log('Not hello to you, sir')
+// }
+
+//----------
+
 // //segunraça de dados - parametros dentro de funcoes
 // var Person = function(name, age, pin = 123456) {
 //     this.name = name;

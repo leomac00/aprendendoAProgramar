@@ -2,6 +2,48 @@
 
 //----------
 
+//     return {
+//         go: function (direction) {
+//             var place = player.getPlace();
+//             var destination = place.getExit(direction);
+//             if (destination !== undefined) {
+//             player.setPlace(destination);
+//             render();
+//             return "";
+//             } else {
+//             return "*** There is no exit in that direction ***";
+//             }
+//             },
+//         get: function() {
+//           var place = player.getPlace();
+//           var item = place.getLastItem();
+//           player.addItem(item);
+//           render();
+//           return "";
+//         }
+//       };
+
+// ----------
+
+// return {
+//     go: function(direction) {
+//       var place = player.getPlace();
+//       var destination = place.getExit(direction);
+//       player.setPlace(destination);
+//       render();
+//       return "";
+//     },
+//     get: function() {
+//       var place = player.getPlace();
+//       var item = place.getLastItem();
+//       player.addItem(item);
+//       render();
+//       return "";
+//     }
+//   };
+
+//----------
+
 // //no cheating quiz
 // var getQuiz = function() {
 //     var score = 0,

@@ -99,3 +99,5 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >02/09/2020 - Temrinei o capítulo 12 do livro[0] que diz sobre blocos 'if/else'. não tive muita surpresa aqui pois já vinha usando esta estrutura há algum tempo. porém aqui foi interessante para perceber como o autor trata inputs de usuário e como ele esconde informaçoes de variaveis dentro de funçoes.
 
 >04/09/2020 - Passei o dia quebrando a cabeça em como fazer funcionar export/import no JSbin e tive que abandonar ele pois a versao ele é inferior ao ES6, fazendo com que nao aceite estes comando, entao passei a usar de vez o Visual Code Studio para tudo em JS. Como citado, aprendi a usar import/export para utilizar vários modulos inves de um eagora meu codigo está melhor organizado; também aprendi sobre o comando 'window.' que seta uma determinada variavel como sendo global. Arquivs foram comitados no repositorio.
+
+>05/08/2020 - Voltei a estudar Python, reli todo o conteudo que eu tinha escrito referente ao livro[2] e comecei a estudar sobre regex.

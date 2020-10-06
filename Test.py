@@ -1,6 +1,12 @@
-spam = {'cat':1}
-print(spam['cat'])
-print(spam.values())
+import re
+numRegex = re.compile(r'\d+'), 
+numRegex.sub('X', '12 drummers, 11 pipers, five rings, 3 hens') 
+# print(mo)
+
+#############################################
+# spam = {'cat':1}
+# print(spam['cat'])
+# print(spam.values())
 #############################################
 # spam = {'bar': 100}
 # print(spam['foo'])

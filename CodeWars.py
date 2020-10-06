@@ -1,6 +1,41 @@
 
+  
+
 ###############################################
 
+# #sum if given number if a multiple of 3 or 5
+# def solution(number):
+#     mult = []
+#     for i in range (number):
+#         if i % 3 == 0:
+#             mult.append(i)
+#         elif i % 5 == 0: 
+#             mult.append(i)
+#     return sum(mult)
+
+# solution(10)
+###############################################
+
+# #Place all zeros to the end
+# def move_zeros(array):
+#     list = []
+#     zeros = []
+#
+#     for i in range(len(array)):
+#         if array[i] == 0 or array[i] == 0.0:
+#             if type(array[i]) == int or type(array[i]) == float:
+#                 zeros.append(array[i])
+#             else:
+#                 list.append(array[i])
+#         else:
+#             list.append(array[i])
+#
+#     return list + zeros
+#
+# print(move_zeros([1,2,False,1,0,1,0,3,0,1]))
+
+###############################################
+#
 # def fibonacci(n):
 #     soma = 1
 #     ultimoCalculado = 1

@@ -100,6 +100,8 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 
 >04/09/2020 - Passei o dia quebrando a cabeça em como fazer funcionar export/import no JSbin e tive que abandonar ele pois a versao ele é inferior ao ES6, fazendo com que nao aceite estes comando, entao passei a usar de vez o Visual Code Studio para tudo em JS. Como citado, aprendi a usar import/export para utilizar vários modulos inves de um eagora meu codigo está melhor organizado; também aprendi sobre o comando 'window.' que seta uma determinada variavel como sendo global. Arquivs foram comitados no repositorio.
 
->05/08/2020 - Voltei a estudar Python, reli todo o conteudo que eu tinha escrito referente ao livro[2] e comecei a estudar sobre regex.
+>05/09/2020 - Voltei a estudar Python, reli todo o conteudo que eu tinha escrito referente ao livro[2] e comecei a estudar sobre regex.
 
->06/08/2020 - continuei meus estudos em regex.
+>06/09/2020 - continuei meus estudos em regex.
+
+>06/10/2020 - Terminei o capitulo de regex, andei estudando umas coisas mais porem esqueci de fazer os uploads aqui no gitHub

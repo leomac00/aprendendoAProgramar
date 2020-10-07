@@ -1,8 +1,25 @@
-import re
-numRegex = re.compile(r'\d+'), 
-numRegex.sub('X', '12 drummers, 11 pipers, five rings, 3 hens') 
-# print(mo)
+def foo (word):
+    import pprint
+    count = {}
+    for c in word:
+        count.setdefault(c, 0)
+        count[c] += 1
+    pprint.pprint(count)
 
+foo('senhor dos aneis')
+
+#############################################
+# def fizzBuzz(n):
+#     if n % 3 == 0 and n % 5 == 0:
+#         print('FizzBuzz')
+#     elif n % 3 == 0:
+#         print('Fizz')
+#     elif n % 5 == 0:
+#         print('Buzz')
+#     else:
+#         print(str(n))
+
+# fizzBuzz(6)
 #############################################
 # spam = {'cat':1}
 # print(spam['cat'])

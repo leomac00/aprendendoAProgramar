@@ -105,3 +105,6 @@ Também vi mais sobre P5.js, como funviona o setup() o draw() e o mouseX e mouse
 >06/09/2020 - continuei meus estudos em regex.
 
 >06/10/2020 - Terminei o capitulo de regex, andei estudando umas coisas mais porem esqueci de fazer os uploads aqui no gitHub
+
+>07/10/2020 - Comecei um novo capítulo no livro de python, agora trabalhando com diretorios e manipulação de arquivos.
+

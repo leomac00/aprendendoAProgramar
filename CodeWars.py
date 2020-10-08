@@ -1,5 +1,57 @@
+#Snail Sort
+def snail(snail_map):
+    n = len(snail_map)
+    result = []
 
-  
+    if len(snail_map) == 0:
+        return result
+
+    #Top Side append and removal
+    for i in range(n):
+        result.append(snail_map[0][i])
+    snail_map.remove(result)
+    if len(snail_map) == 0:
+        return result
+
+    #Right side append and removal
+    for i in range(n-1):
+        result.append(snail_map[i][n-1])
+    for j in range(n-1):
+        snail_map[j].pop()
+
+    #Bottom Side append and removal
+    n = len(snail_map)
+    for i in reversed(range(n)):
+        result.append(snail_map[n-1][i])
+    snail_map.pop()
+
+    #Left Side append and removal
+    n = len(snail_map)
+    for i in reversed(range(n)):
+        result.append(snail_map[i][0])
+    for j in range(n):
+        snail_map[j].pop(0)
+
+    if len(snail_map) != 0:
+        rest =  snail(snail_map)
+    else:
+        rest = []
+
+    return result + rest
+
+
+array1 = [[1,2,3],
+         [4,5,6],
+         [7,8,9]]
+
+array2 = [[1,  2,  3, 4, 'a'],
+         [12, 13, 14, 5, 'b'],
+         [11, 16, 15, 6, 'c'],
+         [54, 23, 33, 1, 'd'],
+         [10,  9,  8, 7, 'e']]
+
+print(snail(array2))
+ 
 
 ###############################################
 

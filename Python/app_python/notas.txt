@@ -1,0 +1,4 @@
+Rafael , 10 , 10 , 5 , 5
+Felipe , 10 , 10 , 5 , 5
+Blebliu , 1 , 7 , 8 , 5
+Eri Johnson , 1 , 6 , 10 , 9

@@ -1,0 +1,17 @@
+1.  The brackets are used to identify a list data-type.
+2.  By using the following code: spam.insert('hello',2)
+3.  d
+4.  d
+5.  ["a","b"]
+6.  1
+7.  [3.14, 'cat', 11, 'cat', True, 99]
+8.  [3.14, 11, 'cat', True]
+9.  += and *= respectively.
+10. append() inserts a valuer at the end of the list and insert() inserts a valued at a defined index
+11. remove() and pop()
+12. they represent ordered data-types, they can be concatenated.
+13. in lists values can change and in tuples they cant.
+14. tuple = (42)
+15. tuple(list) and list(tuple) respectively.
+16. a reference value to the list itself.
+17. copy.copy() will copy all the values but no the reference values if the list iself does contain lists inside it and copy.deepcopy will also copy the lists within the list.

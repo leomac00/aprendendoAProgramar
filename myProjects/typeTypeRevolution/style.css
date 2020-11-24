@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 32px Arial Black, sans-serif;
+}
+
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(173, 54, 158);
+}
+canvas {
+    color: black;
+    font-family: 'Trebuchet MS';
+}

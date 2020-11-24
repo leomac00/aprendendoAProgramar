@@ -1,8 +1,0 @@
-1.  dictName = {}.
-2.  dictName = {'foo' : 42}.
-3.  lists have indexes to acess their information, dictionaries have keys.
-4.  A KeyError.
-5.  spam['cat'] will return the associated value for the 'cat' key and spam.keys() will return the keys inside spam in the form of dict_keys(['cat']).
-6.  spam['cat'] will return the associated value for the 'cat' key and spam.values() will return the values associated with each key within the dictionary.
-7.  spam.get('color', 'black')
-8.  pprint.pprint, but first you need to import pprint

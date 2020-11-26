@@ -1,4 +1,9 @@
 # learningToCode
+
+Continuo estudando mas por motivos de tempo acabo não conseguindo editar este README, basta olhar os projetos por data de adição que indicará meus avanços.
+
+---------------------------------------------------------------X---------------------------------------------------------------
+
 Este repositório foi criado para seguir e mostrar meu progresso em quanto aprendo a programar.
 
 This repository was created to track and show my progress as I learn to code.

@@ -68,7 +68,7 @@ class Calculator extends Component {
 		const { operator } = this.state;
 
 		return (
-			<div className={'calculator'}>
+			<div className={'calculator glitch-box'}>
 				<div>
 					<Display value={this.getValue()} />
 				</div>

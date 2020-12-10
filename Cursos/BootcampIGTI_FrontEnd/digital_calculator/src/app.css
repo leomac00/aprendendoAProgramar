@@ -7,6 +7,16 @@
 	height: 100vh;
 }
 
+.divInf {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-shadow: -2px -2px 0 cyan, 2px 2px 0 magenta;
+	font-family: roboto;
+	color: white;
+}
+
 .calculator {
 	/* Insere os elementos da div 'calculator' na coluna 2, linha 2 */
 	grid-column: 2;
@@ -17,7 +27,7 @@
 	padding: 1em;
 
 	/* Terá altura máxima de 100% da calculadora e tudo que passar (overflow) estará escondido (hidden) */
-	background-image: url(https://www.shitpostbot.com/img/sourceimages/bootleg-darth-vader-57cb893791cf2.jpeg);
+	background-image: url(https://i.pinimg.com/originals/60/df/e6/60dfe65ab3e6c4b08107e2ce1bb33906.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-height: 100%;
@@ -42,6 +52,12 @@
 
 	cursor: pointer;
 	transition: 0.5s;
+}
+
+.glitch-box {
+	box-shadow: -3px -3px 0 cyan, 3px 3px 0 magenta;
+	text-shadow: -2px -2px 0 cyan, 2px 2px 0 magenta;
+	font-family: roboto;
 }
 
 .button:hover {

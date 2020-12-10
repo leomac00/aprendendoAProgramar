@@ -7,7 +7,7 @@ export function App() {
 		<div className="screen">
 			<div className="divSup"/>
 			<Calculator />
-			<div className="divInf"/>
+			<div className="divInf"><h1>Calculadora</h1></div>
 		</div>
 	);
 }

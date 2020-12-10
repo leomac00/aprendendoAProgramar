@@ -7,7 +7,7 @@ class Button extends Component {
 	}
 
 	render() {
-		const cssButtonClass = this.props.disabled ? 'button disabled' : 'button';
+		const cssButtonClass = this.props.disabled ? 'button glitch-box disabled' : 'button glitch-box';
 		return (
 			<div
 				className={cssButtonClass}

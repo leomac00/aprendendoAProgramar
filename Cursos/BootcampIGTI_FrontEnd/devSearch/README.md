@@ -11,4 +11,4 @@
 </ul>
 <h3>Neste projeto eu aprendi:</h3>
 <p>Foi um projeto bem desafiador, a ideia aqui foi simples mas complexa de ser implementada, então pude experimentar várias maneiras de fazer requisicoes a esta API, precisei entender como manipular os dados que esse fetch trazia, principalemente através de métodos de arrays cmo .map e o .filter, precisei entender como o JS manipulava o DOM para gerar as divs necessárias para mostrar na tela os desenvolvedores.</p>
-<h4>Status: Funcionalidade=terminada | Estilização: TODO</h4>
+<h4>Status: Funcionalidade=terminada | Estilização=TODO</h4>

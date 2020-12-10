@@ -1,5 +1,6 @@
 # learningToCode
 
+Aqui As pastas estão separadas em cursos que fiz ou tecnologias que acabei brincando um pouco para poder aprender a desenvolver nelas. O projetos mais complexos estão separadas em pastas sozinhas e possuem README, porém também existem outros itens interessantes como por exemplo os códigos do CodeWars onde tento aprender mais lógica.
 
 Minhas tecnologias:
 <ul>

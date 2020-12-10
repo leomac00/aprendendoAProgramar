@@ -56,7 +56,7 @@
 
 .glitch-box {
 	box-shadow: -3px -3px 0 cyan, 3px 3px 0 magenta;
-	text-shadow: -2px -2px 0 cyan, 2px 2px 0 magenta;
+	/* text-shadow: -2px -2px 0 cyan, 2px 2px 0 magenta; */
 	font-family: roboto;
 }
 
@@ -79,4 +79,8 @@
 	background-color: gray;
 	color: white;
 	padding: 1%;
+}
+
+.redFlag {
+	background-color: red;
 }

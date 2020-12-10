@@ -6,8 +6,12 @@ class Display extends Component {
   //render() é a função no React.js responsável por renderizar alguma informação para o usuário
   render() {
     //no caso irá renderizar uma div com tais classes e tais valores
+    let classes;
+    this.props.value === `Erro: não dá para dividir por zero`
+    ? classes = "display borderBlack redFlag"
+    : classes = "display borderBlack";
     return (
-    <div className={"display borderBlack"}>
+    <div className={classes}>
       {this.props.value}
     </div>
     )

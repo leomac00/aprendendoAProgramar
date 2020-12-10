@@ -1,5 +1,16 @@
 # learningToCode
 
+My technologies:
+<ul>
+  <li>Javascript: medium/high</li>
+  <li>HTML: medium</li>
+  <li>CSS: low/medium</li>
+  <li>React: medium</li>
+  <li>Python: medium/high</li>
+  </ul>
+
+---------------------------------------------------------------X---------------------------------------------------------------
+
 Continuo estudando mas por motivos de tempo acabo não conseguindo editar este README, basta olhar os projetos por data de adição que indicará meus avanços.
 
 ---------------------------------------------------------------X---------------------------------------------------------------

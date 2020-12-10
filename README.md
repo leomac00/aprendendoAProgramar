@@ -1,12 +1,12 @@
 # learningToCode
 
-My technologies:
+Minhas tecnologias:
 <ul>
-  <li>Javascript: medium/high</li>
-  <li>HTML: medium</li>
-  <li>CSS: low/medium</li>
-  <li>React: medium</li>
-  <li>Python: medium/high</li>
+  <li>Javascript: intermediário/avançado</li>
+  <li>HTML: Intermediário</li>
+  <li>CSS: Baixo/Intermediário</li>
+  <li>React: Intermediário</li>
+  <li>Python: Intermediário/avan''cado</li>
   </ul>
 
 ---------------------------------------------------------------X---------------------------------------------------------------

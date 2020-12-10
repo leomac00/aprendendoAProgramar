@@ -72,7 +72,7 @@ class Calculator extends Component {
 		return (
 			<div className={'calculator glitch-box'}>
 				<div>
-					<Display value={this.getValue()} className={'display redFlag'}/>
+					<Display value={this.getValue()}/>
 				</div>
 
 				<div className="buttonsContainer">

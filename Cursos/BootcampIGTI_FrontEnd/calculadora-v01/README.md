@@ -9,3 +9,4 @@
   </ul>
   <h3>Neste projeto eu aprendi:</h3>
   <p>Foi possível entender melhor como as classes e ID's funcionam, e como são importantes na hora de pegar dados de um formulário, conseguir manipular estes dados através do JS e mexi um pouco com CSS apesar de não ter estilizado muito.</p>
+<h4>Status: Terminada</h4>

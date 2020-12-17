@@ -8,7 +8,7 @@ Minhas tecnologias:
   <li>HTML: Intermediário</li>
   <li>CSS: Baixo/Intermediário</li>
   <li>React: Intermediário</li>
-  <li>Python: Intermediário/avan''cado</li>
+  <li>Python: Intermediário/avançado</li>
   </ul>
 
 ---------------------------------------------------------------X---------------------------------------------------------------

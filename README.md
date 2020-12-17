@@ -1,15 +1,6 @@
 # learningToCode
 
-Neste repostiório pastas estão separadas em cursos que fiz ou tecnologias que acabei brincando um pouco para poder aprender a desenvolver nelas. Os projetos mais complexos estão separados em pastas sozinhas e possuem README, porém também existem outros itens interessantes como por exemplo os códigos do CodeWars onde tento aprender mais lógica. E ainda tem a pasta de anotações, onde procuro sempre manter atualizada já que são um resumo de tudo que estudei até o momento
-
-Minhas tecnologias:
-<ul>
-  <li>Javascript: intermediário/avançado</li>
-  <li>HTML: Intermediário</li>
-  <li>CSS: Baixo/Intermediário</li>
-  <li>React: Intermediário</li>
-  <li>Python: Intermediário/avançado</li>
-  </ul>
+Uso este repositório para postar alguns snippets de código que considero interessantes.
 
 ---------------------------------------------------------------X---------------------------------------------------------------
 
